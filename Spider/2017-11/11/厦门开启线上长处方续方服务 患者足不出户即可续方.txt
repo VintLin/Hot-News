@@ -1,0 +1,19 @@
+<div class="cont_head">
+<h1>
+  厦门开启线上长处方续方服务 患者足不出户即可续方
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-11-11 08:28:51</span> <span id="author_baidu"></span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：黄丽红</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20369165</articleid><date>2017-11-11 08:28:51.0</date><author></author><title>厦门开启线上长处方续方服务 患者足不出户即可续方</title><keyword>医保</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148121</nodeid><nodename>民生</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网11月11日讯（福建日报记者 周思明 通讯员 林艺萍 黄旋旋） 日前，厦门海沧石塘社区卫生服务中心线上长处方续方服务开启。这项全国首创的“互联网+医疗”服务由厦门市卫计委和市医保局联合推出，创新性地将家庭医生签约居民和慢性病患者从线下引导到线上，为慢病患者提供线上续方、续药、医保移动结算的惠民便民服务。石塘社区卫生服务中心是厦门五个率先投入实战的中心之一，接下来其余社区卫生服务中心（院）也将全面推开。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">据了解，开通线上长处方续方服务的举措不仅让患者少跑路，而且还能通过信息化手段分流门诊，为医生节约更多碎片时间，增加患者服务数量，同时还能推动急慢分治，实现分级诊疗进一步实施。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

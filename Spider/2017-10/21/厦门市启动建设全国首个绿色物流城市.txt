@@ -1,0 +1,21 @@
+<div class="cont_head">
+<h1>
+  厦门市启动建设全国首个绿色物流城市
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-10-21 08:27:08</span> <span id="author_baidu"></span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：林晨</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20285093</articleid><date>2017-10-21 08:27:08.0</date><author></author><title>厦门市启动建设全国首个绿色物流城市</title><keyword></keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent-->
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网10月21日讯（福建日报记者 林侃） 20日，菜鸟网络、中华环境保护基金会、厦门市政府宣布共同在厦门市启动建设全国首个绿色物流城市，环保部副部长黄润秋出席启动仪式并讲话。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">黄润秋说，当前，绿色物流已逐渐成为社会共识，许多机构和个人都积极投身其中，发挥独特作用。菜鸟网络的“绿色行动”就给物流业绿色发展注入新的力量，其首个绿色物流城市落地厦门，为推广绿色物流提供了新思路。环保部与厦门市政府愿意提供支持，一起将厦门打造成为全球绿色物流城市的模范。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">据悉，和以往物流行业自主探索不同的是，此次三方共同打造的绿色物流城市项目，将结合城市发展规划，做好顶层设计，系统推进绿色物流在城市的布局。项目将从推广环保包材、纸箱再回收、新能源智慧物流、城市共同配送等领域，结合智慧物流应用，为厦门率先探索一整套领先的智慧、绿色物流解决方案。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

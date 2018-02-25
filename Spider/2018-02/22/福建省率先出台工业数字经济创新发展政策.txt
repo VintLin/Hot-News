@@ -1,0 +1,21 @@
+<div class="cont_head">
+<h1>
+  福建省率先出台工业数字经济创新发展政策
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2018-02-22 07:28:36</span> <span id="author_baidu">林侃</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>　赵舒文  </td>
+<td align="right" class="wb"><!-- Baidu Button BEGIN -->
+<div style="float:left">分享到：</div><div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<!-- Baidu Button END --></td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20740091</articleid><date>2018-02-22 07:28:36.0</date><author>林侃</author><title>福建省率先出台工业数字经济创新发展政策</title><keyword>数字经济</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148119</nodeid><nodename>时政</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><font face="楷体">到2020年，全省电子信息产业规模超1.2万亿元，年均增长12%</font></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网2月22日讯（福建日报记者 林侃）日前，我省在全国率先出台《关于加快全省工业数字经济创新发展的意见》，要求到2020年，全省工业数字经济产业规模持续壮大，电子信息产业实现规模超过1.2万亿元，年均增长12%；创新能力显著增强，以数字技术创新为主要动能的工业新生态初步建立；数字化转型效果明显，互联网、大数据、人工智能和实体经济深度融合，工业企业智能化改造步伐加快，新模式、新业态不断涌现。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">意见提出，要夯实工业数字经济产业基础。其中，电子信息制造业“增芯强屏”和终端产品创新是重中之重，同时要加快工业软件、物联网、大数据、人工智能等新兴技术产业化，推动信息技术产业高质量、集聚化发展，具体举措包括：实施加快集成电路产业集聚、构筑新型显示产业链、加快计算机与信息通信产业升级、壮大半导体照明产业、打造锂电池千亿产业集群这五大任务，落地实施28纳米集成电路芯片、6英寸砷化镓芯片、8.5代新型显示等一批重大项目建设等。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">加快工业企业数字化升级步伐是工业数字经济创新发展的重要一环。意见提出，要持续推动信息化和工业化深度融合，推动制造业加速向数字化、网络化、智能化发展；重点推动企业生产数字化转型，加快创建“中国制造2025”试点示范城市，建设“机器换工”和智能制造样板工厂（车间）示范项目；提升企业管理数字化水平，培育一批高水平两化融合咨询服务机构，支持中小企业使用工业云平台；推动企业数字化服务化融合发展，引导大型制造企业剥离设立专业化软件与技术服务机构等。</p>
+<!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

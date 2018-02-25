@@ -1,0 +1,23 @@
+<div class="cont_head">
+<h1>
+  全省322个重大项目昨起集中开工 总投资达1534亿元
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2018-02-08 07:25:07</span> <span id="author_baidu">王永珍</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：赵舒文</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20704951</articleid><date>2018-02-08 07:25:07.0</date><author>王永珍</author><title>全省322个重大项目昨起集中开工 总投资达1534亿元</title><keyword>重大项目</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网2月8日讯（福建日报记者 王永珍）据省发改委消息，为落实我省经济发展“百千万支撑工程”，突出项目带动，根据省政府部署，省重点办突出筛选322个有代表性、示范性、导向性的重大项目，总投资达1534亿元，将于7、8、9日三天由各地组织集中开工。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">此次省级集中开工项目中，产业项目168个、总投资924亿元，基础设施项目101个、总投资436亿元，社会民生项目53个、总投资174亿元。其中，福州76个、总投资308亿元，厦门20个、总投资31亿元，漳州33个、总投资154亿元，泉州52个、总投资332亿元，三明28个、总投资49亿元，莆田21个、总投资301亿元，南平22个、总投资93亿元，龙岩21个、总投资70亿元，宁德47个、总投资192亿元，平潭2个、总投资4亿元。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">多个产业重大项目引人关注。位于莆田荔城区的创世纪超级计算机运算服务中心，总投资240亿元，在本次集中开工项目中投资最大。项目拟用地172亩，打造一个T2级数据中心，计划投放24万台超级计算服务器，广泛应用于人工智能、工程计算、气象预报、生物科技等多方领域。此外，还有3个总投资均为50亿元的项目。其中，武夷山白塔山国际度假区，将建设“一水一山一镇一关”四大功能区及4条旅游索道，进一步提升武夷山旅游形象；晋江矽品集成电路封装测试项目，年产晶圆凸块(BUMP)90万枚、覆晶封装(FCCSP)32400万颗、焊线封装(WB)202800万颗、IC测试(FT)54000万颗，完善集成电路产业链；安溪大成智能产业园，一期投资10亿元，建设手机、平板电脑等全产业链工业园区。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">投资10亿元以上的产业项目有：安溪天电光电二期、福州高新区兆元LED产业基地建设二期、长泰松霖智能家居项目、漳州芗城中南高科工业通用厂房项目、连城丹霞古坊生态农业旅游开发项目、漳州芗城三宝海西物流中心、南靖豪士食品项目、九牧永春智慧制造产业园一期、罗源新型环保建材家居项目、福州华威公路港物流园（二期）项目、福州高新区紫光商服项目、中国物流泉州综合物流园区项目、福安青拓不锈钢高速线材和型材项目、福鼎市深海养殖渔场项目等。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">基础设施和民生重大项目中，包括投资56.6亿元的宁德市通信建设项目，主要将开展11个海岛电信普遍服务建制村试点建设、完善4G高速移动网建设、5G试验网建设、城市全光网补网建设，满足偏远地区群众通信需求。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify"> </p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

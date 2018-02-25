@@ -1,0 +1,19 @@
+<div class="cont_head">
+<h1>
+  福建省出台17项措施完善药品生产流通使用
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-10-30 07:49:17</span> <span id="author_baidu">储白珊</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>　赵舒文  </td>
+<td align="right" class="wb"><!-- Baidu Button BEGIN -->
+<div style="float:left">分享到：</div><div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<!-- Baidu Button END --></td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20314598</articleid><date>2017-10-30 07:49:17.0</date><author>储白珊</author><title>福建省出台17项措施完善药品生产流通使用</title><keyword>药品</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148119</nodeid><nodename>时政</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网10月30日讯（福建日报记者 储白珊）对生物等效性试验实行备案制管理、优先对批准上市的新药和通过一致性评价的药品试行上市许可持有人制度、建立医药代表登记备案制度……我省日前出台《关于进一步改革完善药品生产流通使用政策的实施意见》，明确17项措施提高药品质量疗效，规范药品流通和使用行为。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">在提高药品质量疗效方面，我省将实施“药物新产品”重大专项等省科技计划项目，重点培育基因工程蛋白质药物、疫苗、抗病毒化学药和品牌特色中成药，对生物等效性试验实行备案制管理，允许具备条件的医疗机构、高等院校、科研机构和其他社会办检验检测机构等依法开展一致性评价生物等效性试验，对开展Ⅰ期药物临床试验的病床数不计入医疗机构总病床数。同时，建立以福州江阴医药化工园区、三明医药工业园区和南平邵武医药化工园区等为依托的原料药委托加工平台，以本省优质制药企业为依托的制剂委托加工平台，制定相应政策，确保赋予持有人和药品生产企业相同的市场经营权。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">我省还将推进药品流通体制改革，在全省全面推行药品采购“两票制”，鼓励实行“一票制”，实行“招生产企业，实行统一配送”的模式，推行集团化配送。开展以医保支付结算价为基础的药品联合限价阳光采购，完善药品采购目录阳光遴选机制，统一药品目录编码，实施药品医保支付结算价和最高销售限价制度。同时，引导“互联网+药品流通”规范发展，支持药品流通企业与互联网企业、金融机构加强合作，推进线上线下融合发展，培育新型业态。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

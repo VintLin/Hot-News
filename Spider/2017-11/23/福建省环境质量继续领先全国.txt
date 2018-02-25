@@ -1,0 +1,21 @@
+<div class="cont_head">
+<h1>
+  福建省环境质量继续领先全国
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-11-23 07:55:42</span> <span id="author_baidu">郑昭</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20414772</articleid><date>2017-11-23 07:55:42.0</date><author>郑昭</author><title>福建省环境质量继续领先全国</title><keyword>环境质量</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148121</nodeid><nodename>民生</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网11月23日讯（福建日报记者 郑昭）根据环保法相关规定，日前，省政府向省人大常委会报告了我省2017年环境状况和环境保护目标完成情况。记者从正在召开的省人大常委会会议上获悉，今年1—9月，全省环境质量总体良好，大气、水环境质量保持优良，继续领先全国。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">全省空气质量优良天数比例为95.2%，比全国平均水平高15.8个百分点。细颗粒物(PM2.5)、可吸入颗粒物(PM10)等6项污染物平均浓度均达到国家空气质量二级标准，其中PM2.5、PM10分别为26微克/立方米、44微克/立方米，比全国平均水平分别低36.6%、38.9%，PM10平均浓度相比2013年基准年的66微克/立方米下降33.3%，超额完成国家“大气十条”要求下降10%的目标，福州、厦门在全国74个重点城市空气质量排名中分别列第10、第8。12条主要河流水质为优，I—III类水质比例为95.8%，高于全国十大流域总体水平约25个百分点，其中I—II类水质比例为56.6%，同比提高2.8个百分点。无劣V类断面。小流域I—III类水质比例为80.9%，比2016年基准年提高5.3个百分点。全省地级以上城市集中式饮用水水源地水质达标率97.0%，县级集中式饮用水水源地水质达标率100%，总体保持平稳。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">报告指出，2017年，我省将51项绿色发展指标中的33项纳入党政领导生态环保目标考核内容，占绿色发展指标总权重的70%，实现与生态文明考核目标体系的有机衔接；淘汰黄标车3.6万辆，完成率98.2%，超过序时进度20个百分点；率先在全国建设生态环境大数据平台，整合各类生态环境和污染源检测监控数据、环保监管业务数据，以及海洋、气象等部门的有关数据及互联网数据，基本构建了覆盖省、市、县三级环保系统的生态环境大数据平台和应用体系，目前该平台已开始上线试运行；全省自然资源资产负债表、综合性生态补偿试点等改革任务已经启动，力争今年底前基本完成；生态保护红线划定落图工作正在有序开展，计划今年年底前完成。</p>
+<!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

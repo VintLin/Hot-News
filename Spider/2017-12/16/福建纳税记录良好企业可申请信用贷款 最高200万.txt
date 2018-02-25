@@ -1,0 +1,21 @@
+<div class="cont_head">
+<h1>
+  福建纳税记录良好企业可申请信用贷款 最高200万
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-12-16 10:42:09</span> <span id="author_baidu">杨剑峰</span> <span id="source_baidu">来源：<a href="http://news.fznews.com.cn/shehui/20171216/5a346aec4cbbb.shtml">福州晚报</a></span>  <span id="editor_baidu">责任编辑：林晨</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20502912</articleid><date>2017-12-16 10:42:09.0</date><author>杨剑峰</author><title>福建纳税记录良好企业可申请信用贷款 最高200万</title><keyword>信用贷款 纳税信用</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">福州新闻网12月16日讯（福州晚报记者 杨剑峰）我省推出的“税易贷”业务“上线”了，企业通过银行电子渠道就可自助完成贷款全流程，并有望获得最高200万元的信用贷款。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">记者昨日获悉，在榕一家大银行与福建省国家税务局、福建省地方税务局合作，率先推出了线上自助操作的“云税贷”业务。诚信纳税的小微企业，可通过银行电子渠道申请信用贷款，并在线完成审批、签约和支用，无需抵押担保，随借随还，贷款额度最高为200万元。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">据了解，此前我省建设银行、工商银行、中国银行、兴业银行、招商银行等与税务部门互动，推出了“税易贷”等信用贷款产品，小微企业凭纳税记录可以向银行申请信用贷款，期限最长1年。该业务突破了银行传统以企业财务报表为主的评价授信方式，改用以小微企业纳税额度、纳税信用和银行信用积累相结合的评价授信新模式，不过该业务一般需要企业到银行网点申请、审批。</p>
+<!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

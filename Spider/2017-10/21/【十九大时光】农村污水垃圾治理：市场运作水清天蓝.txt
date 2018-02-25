@@ -1,0 +1,25 @@
+<div class="cont_head">
+<h1>
+  【十九大时光】农村污水垃圾治理：市场运作水清天蓝
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-10-21 07:49:38</span> <span id="author_baidu"></span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：林晨</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20284740</articleid><date>2017-10-21 07:49:38.0</date><author></author><title>【十九大时光】农村污水垃圾治理：市场运作水清天蓝</title><keyword></keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148121</nodeid><nodename>民生</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent-->
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网10月21日讯（福建日报记者 潘园园 通讯员 苏福彬）18日，在永春县东关镇美升村寨脚角落，福建中榕信环保工程有限公司3名技术人员正在一处绿树鲜花掩映下的农村污水处理设施前忙碌：检查进出水是否正常、对格栅池进行全面清淤、全面检修维护电控箱……</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">作为全国100个农村污水全面治理示范县试点，永春县如今已建成农村生活污水处理设施210座，实现22个乡镇镇区和村庄人口集中居住区的全面覆盖。今年初以来，该县积极探索市场运营维护模式，将全县64座农村污水处理设施进行整体打包，通过“工程包”向专业公司进行“第三方托管”，经公开招投标，由中榕信公司负责日常运营维护。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">“公司技术人员每周都要对这64座污水处理设施进行巡查和维护。”中榕信公司永春负责人林宜温告诉记者，“政府部门每个月都会抽查监督，对水质进行检测。经过专业维护保养，寨脚污水处理设施出水达到国家一级B标准。”</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">在寨脚污水处理设施不远处，碧波荡漾的桃溪令人赏心悦目。“以前流淌的污水既影响了村容村貌，还破坏了生态环境。”美升村村民陈金相说，“现在好了，有了生活污水处理设施，还有专业公司负责营运，水变清了，环境变美了。”</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">回归山清水秀，留下乡韵乡愁，离不开污水垃圾处理硬件设施建设。省住建厅有关负责人介绍，2012年以来，全省929个乡镇已有640个乡镇建成生活污水处理设施，867个乡镇建成垃圾转运系统。到2016年底,对生活污水、垃圾进行处理的建制村比例分别达到32%、70%。今年初以来，全省共有76个乡镇建成生活污水处理设施，占年度任务的76%；新建改造三格化粪池38.7万户，占年度任务的77%；计划建成247个乡镇生活垃圾转运系统，已完工185个；计划新增3000个建制村建立垃圾治理常态机制任务，完成3460个，占年度任务115%。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">相比以前的政府包干，今后将全面引入市场机制。省政府办公厅今年4月下发《福建省培育发展农村污水垃圾处理市场主体方案》，明确以市场化、专业化、产业化为导向，营造有利的市场和政策环境，吸引社会资本以PPP工程包或购买服务的模式投入农村污水垃圾治理。力争2017年，各县（市、区）都推出1个以上工程包。到2020年，农村污水垃圾治理市场主体规模明显扩大，社会资本投入显著增长，培育一批龙头企业，形成全面开放、政策完善、监管有效、规范公平的农村污水垃圾治理市场体系，农村污水垃圾治理设施长期稳定运行。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">根据规划，从2016年到2020年，我省力争用五年时间完成6500个以上建制村污水治理，使全省70%以上建制村覆盖农村污水处理设施，所有建制村生活垃圾得到有效治理，让农村环境实现华丽“变脸”。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

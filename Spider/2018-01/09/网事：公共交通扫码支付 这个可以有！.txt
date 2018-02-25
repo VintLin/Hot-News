@@ -1,0 +1,24 @@
+<div class="cont_head">
+<h1>
+  网事：公共交通扫码支付 这个可以有！
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2018-01-09 11:04:39</span> <span id="author_baidu">冯川叶 李霖 谢玉妹 陈惠华</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>　赵舒文  </td>
+<td align="right" class="wb"><!-- Baidu Button BEGIN -->
+<div style="float:left">分享到：</div><div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<!-- Baidu Button END --></td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20587645</articleid><date>2018-01-09 11:04:39.0</date><author>冯川叶 李霖 谢玉妹 陈惠华</author><title>网事：公共交通扫码支付 这个可以有！</title><keyword>网事</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>249</nodeid><nodename>今日要闻</nodename><nodesearchname></nodesearchname><picurl>http://fjnews.fjsen.com/images/attachement/jpg/site2/20180109/dc4a3e46a1581bbe75da02.jpg</picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="center"><img align="center" border="0" id="12649571" sourcedescription="编辑提供的本地文件" sourcename="本地文件" src="../../images/attachement/jpg/site2/20180109/dc4a3e46a1581bbe75da02.jpg" title=""/></p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong>2018年1月9日福建日报网事版（9版）主要稿件：</strong></p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong><a href="content_20585429.htm"><font color="blue">公共交通扫码支付 这个可以有！</font></a></strong></p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong><a href="content_20587490.htm" target="_blank" title=""><font color="blue">福建工程学院教授吕英志：公共交通扫码支付是趋势</font></a></strong></p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px; COLOR: blue"><strong><a href="content_20585458.htm" style="COLOR: blue"><font color="blue">评论：“扫码乘公交”好经还得认真念</font></a></strong></p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px; COLOR: blue"><strong><a href="content_20585840.htm" style="COLOR: blue" target="_blank" title=""><font color="blue">海外华裔中小学生积极参与“印象·福州”书画征文摄影大赛</font></a></strong></p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong><a href="content_20585474.htm"><font color="blue">惠安县卫计局联合东南网摄制 微电影《二宝》开拍</font></a></strong></p>
+<!--/enpcontent--></td> </tr></table><strong></strong><div id="displaypagenum" width="100%"><p><center> <span>[1]</span> <a class="fenye_01" href="content_20587645_2.htm">[2]</a> <a class="fenye_01" href="content_20587645_3.htm">[3]</a> <span class="fenye_01">[...]</span> <a class="fenye_01" href="content_20587645_6.htm">[6]</a> <a class="fenye_02" href="content_20587645_2.htm">下一页</a> <a class="fenye_02" href="content_20587645_6.htm">尾页</a> <a class="fenye_02" href="content_20587645_all.htm#content_1">显示全文</a></center></p></div><!--/enpcontent-->
+</div>

@@ -1,0 +1,23 @@
+<div class="cont_head">
+<h1>
+  今年福建拟安排专项资金10.72亿元推广应用新能源汽车
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2018-01-05 08:58:45</span> <span id="author_baidu">林侃</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20573377</articleid><date>2018-01-05 08:58:45.0</date><author>林侃</author><title>今年福建拟安排专项资金10.72亿元推广应用新能源汽车</title><keyword>新能源</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><font face="楷体">新能源汽车产业技术需求与项目成果对接会举行 </font></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网1月5日讯（福建日报记者 林侃）近日，福建省新能源汽车产业技术需求与项目成果对接会在福清市举行。活动由省经信委、省发改委、省科技厅、中科院上海分院、中科院海西研究院联合主办，来自中科院系统的50多位专家，以及来自省内外科研院校的专家学者、省内相关企业代表近300人参加了会议。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">会上，中国科学院电动汽车研发中心副主任孙江明作了新能源汽车行业发展主题讲座，中科院6位专家现场推介了各自研究领域的最新科技成果。中科院海西研究院与福清市政府、冠城瑞闽公司院地、院企合作项目签约仪式同期举行，与会嘉宾还为冠城瑞闽与中科院福建物构所共建“新能源材料及器件联合实验室”揭牌。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">据了解，会议推介了省内外科研单位的项目成果及专利88项，并发布了福建省新能源汽车企业技术需求60项，在前期预对接的基础上，现场组织专家与企业进行了深入洽谈，在新能源汽车整车、电机电控、电池和关键材料等方向促成30多个意向项目。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">目前，我省共有新能源汽车整车生产企业7家、专用汽车1家，拥有新能源汽车产能15万辆，基本涵盖所有类别的新能源汽车产品；拥有以宁德时代新能源、厦门钨业等国内乃至国际领先的“三电”系统企业，以及杉杉科技、莆田佳通、厦门正新、漳州正兴车轮、福耀玻璃等汽车零部件龙头企业等产业链配套优势。今年，省经信委拟安排新能源汽车专项资金10.72亿元用于在全省范围内全面开展新能源汽车推广应用工作，并将采取多方面举措推进新能源汽车技术研发创新。</p>
+<!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

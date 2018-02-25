@@ -1,0 +1,22 @@
+<div class="cont_head">
+<h1>
+  网事：福州油纸伞“触网”增强客户黏性
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-10-24 09:54:36</span> <span id="author_baidu"></span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：林晨</span>　林晨  </td>
+<td align="right" class="wb"><!-- Baidu Button BEGIN -->
+<div style="float:left">分享到：</div><div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<!-- Baidu Button END --></td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20295873</articleid><date>2017-10-24 09:54:36.0</date><author></author><title>网事：福州油纸伞“触网”增强客户黏性</title><keyword></keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>249</nodeid><nodename>今日要闻</nodename><nodesearchname></nodesearchname><picurl>http://fjnews.fjsen.com/images/attachement/png/site2/20171024/acd1b88326ad1b58df1e3c.png</picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="center" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: center"><img id="12427885" src="../../images/attachement/png/site2/20171024/acd1b88326ad1b58df1e3c.png"/></p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">2017年10月24日福建日报网事版（12版）主要稿件：</p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><a href="content_20295589.htm"><strong>福州油纸伞：“触网”增强客户黏性</strong></a></p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><a href="content_20295933.htm"><strong>微电影《拾相思》泉州首映</strong></a></p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><a href="content_20295970.htm"><strong>福州严重交通违法纳入征信获点赞</strong></a></p>
+<!--/enpcontent--></td> </tr></table><strong></strong><div id="displaypagenum" width="100%"><p><center> <span>[1]</span> <a class="fenye_01" href="content_20295873_2.htm">[2]</a> <a class="fenye_01" href="content_20295873_3.htm">[3]</a> <a class="fenye_01" href="content_20295873_4.htm">[4]</a> <a class="fenye_02" href="content_20295873_2.htm">下一页</a> <a class="fenye_02" href="content_20295873_4.htm">尾页</a> <a class="fenye_02" href="content_20295873_all.htm#content_1">显示全文</a></center></p></div><!--/enpcontent-->
+</div>

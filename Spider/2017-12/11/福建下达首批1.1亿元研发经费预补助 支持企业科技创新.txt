@@ -1,0 +1,27 @@
+<div class="cont_head">
+<h1>
+  福建下达首批1.1亿元研发经费预补助 支持企业科技创新
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-12-11 08:52:29</span> <span id="author_baidu">李珂</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>　赵舒文  </td>
+<td align="right" class="wb"><!-- Baidu Button BEGIN -->
+<div style="float:left">分享到：</div><div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<!-- Baidu Button END --></td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20481065</articleid><date>2017-12-11 08:52:29.0</date><author>李珂</author><title>福建下达首批1.1亿元研发经费预补助 支持企业科技创新</title><keyword>研发经费</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148119</nodeid><nodename>时政</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><font face="楷体">上不封顶 叠加享受</font></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网12月11日讯（福建日报记者 李珂）日前，省科技厅、财政厅联合发文，对全省431家企业下达2017年度企业年中及单项研发经费预补助1.1亿多元。其中，省级补助3448.42万元，市级补助3471.08万元，县（区）级补助4491.19万元。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">此次下达的企业研发经费预补助，是今年2月《福建省企业研发经费投入分段补助实施办法（试行）》实施以来的首批预补助。该《办法》对企业研发经费投入给予分段补助、增量奖励。我省是国内首批出台企业研发经费投入分段补助的省份，其最大红利在于补助上不封顶，与其他优惠政策可以叠加享受。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">此笔经费是针对2017年度我省企业研发经费内部支出的基础性补助部分进行预补助。受惠面涉及福州、泉州、漳州、宁德、莆田、龙岩、南平7个设区市的427家创新型企业。其中，福州、泉州、漳州三市的166家、99家和57家企业得到的补助位居前三，分别是3866万元、1653万元、1438万元。此外，全省还有4家企业得到单项研发经费预补助2687万元，受惠最大的企业是宁德时代新能源科技股份有限公司和宁德新能源科技有限公司，分别获得1270万元和926万元补助。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">省科技厅相关负责人表示，我省探索灵活有效的创新补助方式，引导企业加大研发投入，它们正成为全面实施创新驱动发展战略的重要方式。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">随着《福建省企业研发经费分段补助实施办法（试行）》《福建省企业研发经费分段补助实施细则（试行）》的出台实施，今后我省企业得到的创新激励将越来越多。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong>延伸阅读</strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong>企业研发费用预补助如何申请</strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">201 7年企业研发费用预补助申请对象为在我省设立的规模以上企业和规模以下高新技术企业，并且企业尚未申请201 7年度科技小巨人领军企业研发费用加计扣除奖励资金，或新型研发机构仪器设备购置补助。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">企业研发经费分段补助预补助分为年中研发经费预补助和单项研发经费预补助两种方式，企业在同一年度只能选择一种补助方式申请。其中，申请年中研发经费预补助的，企业2016年度研发经费内部支出（年度研发经费先扣除企业委托外单位研发等研发经费外部支出,以及当年获得政府补助经费部分）应达50万元（含）以上；而申请单项研发经费预补助的，企业2016年度研发经费内部支出达1.5亿元以上，且201 7年度出现单项研发经费投入，或单笔研发经费投入，或1个月　内研发经费累计投入达到1000万元以上。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"> </p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

@@ -1,0 +1,25 @@
+<div class="cont_head">
+<h1>
+  网事：闽侯根雕：“互联网+”雕出产业发展
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2018-01-09 11:36:44</span> <span id="author_baidu">林先昌 林永清 张少伟 冯旭 卢金福</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>　赵舒文  </td>
+<td align="right" class="wb"><!-- Baidu Button BEGIN -->
+<div style="float:left">分享到：</div><div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<!-- Baidu Button END --></td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20587724</articleid><date>2018-01-09 11:36:44.0</date><author>林先昌 林永清 张少伟 冯旭 卢金福</author><title>网事：闽侯根雕：“互联网+”雕出产业发展</title><keyword>网事</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>249</nodeid><nodename>今日要闻</nodename><nodesearchname></nodesearchname><picurl>http://fjnews.fjsen.com/images/attachement/jpg/site2/20180109/dc4a3e46a1581bbe7d9d25.jpg</picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="center"><img align="center" border="0" id="12649834" sourcedescription="编辑提供的本地文件" sourcename="本地文件" src="../../images/attachement/jpg/site2/20180109/dc4a3e46a1581bbe7d9d25.jpg" title=""/></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong>2018年1月9日福建日报网事版（10版）主要稿件：</strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong><a href="content_20585472.htm"><font color="blue">闽侯根雕：“互联网+”雕出产业发展</font></a></strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px; COLOR: blue"><strong><a href="content_20585900.htm" style="COLOR: blue"><font color="blue">平和霞寨镇：“电商+企业+贫困户”精准扶贫</font></a></strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px; COLOR: blue"><strong><a href="content_20587801.htm" style="COLOR: blue"><font color="blue">福州地铁3号线取消到南屿？ 市发改委：路线仍在研究中</font></a></strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px; COLOR: blue"><strong><a href="content_20587846.htm" style="COLOR: blue" target="_blank" title=""><font color="blue">养殖场“违规抢水”为何难执法？</font></a></strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px; COLOR: blue"><strong><a href="content_20586086.htm" style="COLOR: blue" target="_blank" title=""><font color="blue">宁德：发挥慈善力量为省运会助力“加温”</font></a></strong></p>
+<p>
+</p><!--/enpcontent--></td> </tr></table><strong></strong><div id="displaypagenum" width="100%"><p><center> <span>[1]</span> <a class="fenye_01" href="content_20587724_2.htm">[2]</a> <a class="fenye_01" href="content_20587724_3.htm">[3]</a> <span class="fenye_01">[...]</span> <a class="fenye_01" href="content_20587724_6.htm">[6]</a> <a class="fenye_02" href="content_20587724_2.htm">下一页</a> <a class="fenye_02" href="content_20587724_6.htm">尾页</a> <a class="fenye_02" href="content_20587724_all.htm#content_1">显示全文</a></center></p></div><!--/enpcontent-->
+</div>

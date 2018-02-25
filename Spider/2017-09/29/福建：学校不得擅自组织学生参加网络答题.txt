@@ -1,0 +1,22 @@
+<div class="cont_head">
+<h1>
+  福建：学校不得擅自组织学生参加网络答题
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-09-29 09:35:06</span> <span id="author_baidu">刘丰</span> <span id="source_baidu">来源：<a href="http://www.fj.xinhuanet.com/yuanchuang/2017-09/28/c_1121741498.htm">新华网</a></span>  <span id="editor_baidu">责任编辑：蔡秀明</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20190454</articleid><date>2017-09-29 09:35:06.0</date><author>刘丰</author><title>福建：学校不得擅自组织学生参加网络答题</title><keyword>答题活动 组织学生</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148123</nodeid><nodename>文教</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">新华网福州9月28日电（刘丰）福建省教育厅日前下发通知，要求学校不能擅自组织学生参加网络答题。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">通知指出，近年来各级各部门面向学生开展的网络答题和竞赛活动过多过滥，加重了学生的课业负担，各地和学校反映比较强烈。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">通知明确，除上级教育主管部门正式发文部署的网络答题活动外，各单位、学校原则上不自行组织学生参加网络答题活动。确有必要组织的网络答题活动，要坚持立德树人，促进学生成长发展，科学安排答题项目，有效整合相近主题活动、避免重复交叉，并严格控制活动频次；原则上要坚持学校、学生自愿原则，不得规定学校、学生参加活动的规模、比例。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">同时，要充分发挥网络答题活动的育人功能，根据时代发展和实施素质教育的需要确定主题、组织活动，要结合各学段学生年龄特征，合理确定活动对象范围，坚决制止形式主义、没有思想性和知识性的网络答题活动。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">另外，学校不得联合其他部门组织学生参加网络答题活动；非教育行政部门组织或同意的网络答题活动，均不允许学校组织学生参加，擅自组织学生参加的，要追究校长责任。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

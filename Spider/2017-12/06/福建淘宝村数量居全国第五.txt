@@ -1,0 +1,20 @@
+<div class="cont_head">
+<h1>
+  福建淘宝村数量居全国第五
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-12-06 07:21:34</span> <span id="author_baidu">郑璜</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20462740</articleid><date>2017-12-06 07:21:34.0</date><author>郑璜</author><title>福建淘宝村数量居全国第五</title><keyword>淘宝村</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网12月6日讯（福建日报记者 郑璜）近日，阿里研究院公布“2017中国淘宝村”名单，我省189个淘宝村上榜，同比增长76.6%，数量居全国第五。而淘宝村数量超过100个的省份，全国仅6个。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">作为全国四大网商货源中心之一的泉州，淘宝村数量居全省第一，达126个，福州、莆田紧随其后，厦门、漳州、龙岩、宁德均有淘宝村上榜。晋江成为我省最大的淘宝村集群。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">这其中，泉州、厦门、福州、莆田四个电商示范城市占绝对优势，淘宝村占比超全省九成。淘宝、天猫、京东等主要电商平台销售的休闲裤、运动鞋服和羽绒服近80%产自福建；京东商城销售的水暖厨卫产品超60%是南安品牌；德化的茶具网销占全国茶具网络市场份额近80%；安溪以藤铁家具和工艺品网销为主，闽侯则以根雕和家具产业成为全国大板桌最集中的产地；仙游作为古典工艺家具产业核心生产销售区已成功试水红木电子商务营销新模式，龙海的花卉产业搭上电商快车，福安的按摩器网销表现突出，龙岩的培斜村经营范围除了当地竹凉席和茶叶产品之外，已拓展到汽车用品、生活用品和服装等多个领域。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

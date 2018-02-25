@@ -1,0 +1,29 @@
+<div class="cont_head">
+<h1>
+  福建新曝9批次食品抽检不合格
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-11-11 10:39:29</span> <span id="author_baidu"></span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：黄丽红</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20369570</articleid><date>2017-11-11 10:39:29.0</date><author></author><title>福建新曝9批次食品抽检不合格</title><keyword>食品</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148121</nodeid><nodename>民生</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网11月11日讯（海峡导报驻福州记者 杨文）昨日，省食品药品监督管理局发布最新通报，我省食品药品监管部门近期再度对11大类食品开展省级食品安全监督抽检，共抽检1097批次食品，其中9批次食品抽检不合格，分别是：</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">1.标示为福建万得福食品有限公司2017年5月15日生产的老婆饼，过氧化值（以脂肪计）不合格；</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">2.标示为福州市百福食品有限公司2017年5月21日生产的板栗饼，酸价(以脂肪计)(KOH)不合格；</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">3.标示为漳州市鼎记食品有限公司2017年4月14日生产的绿豆饼，霉菌不合格；</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">4.标示为福州容百珍食品有限责任公司2017年5月26日生产的肉松饼，防腐剂混合使用时各自用量占其最大使用量的比例之和不合格；</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">5.标示为政和县铁山花茶厂2017年5月20日生产的工夫红茶，草甘膦不合格；</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">6.标示为福州特典食品有限公司2016年12月11日生产的珍珠鱼米，山梨酸及其钾盐（以山梨酸计）不合格；</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">7.标示为沙县龙凤板鸭厂2017年7月11日生产的酱卤肉制品（郑湖辣鸭），菌落总数不合格；</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">8.标示为福建省汤霸王食品有限公司2017年2月18日生产的甜不辣，山梨酸及其钾盐（以山梨酸计）不合格；</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">9.标示为福建神马酒业有限公司2017年3月26日生产的黄酒（料酒），酒精度不合格。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">省食药监管局提醒消费者，如购买或在市场上发现通告所列的不合格食品，请拨打食品安全投诉举报电话12331进行投诉举报。</p>
+<!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

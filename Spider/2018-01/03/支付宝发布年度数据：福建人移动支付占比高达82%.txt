@@ -1,0 +1,25 @@
+<div class="cont_head">
+<h1>
+  支付宝发布年度数据：福建人移动支付占比高达82%
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2018-01-03 08:26:47</span> <span id="author_baidu">林侃</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20563724</articleid><date>2018-01-03 08:26:47.0</date><author>林侃</author><title>支付宝发布年度数据：福建人移动支付占比高达82%</title><keyword>支付宝</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网1月3日讯（福建日报记者 林侃）你上一次掏钱包是什么时候，一周前？一个月前？昨日，支付宝发布2017年“全民账单”，数据显示，2017年福建支付宝用户移动支付占比为82%，创下新高。这也意味着随着移动支付的普及，不带钱包出门已成为福建人的新习惯。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">在我省各设区市中，漳州市、龙岩市均以88%的移动支付占比排名并列第一；三明市、南平市、福州市、厦门市、宁德市则分别为87%、86%、85%、84%、83%；莆田市和泉州市移动支付占比较低，分别为79%、73%。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">蚂蚁金服有关人士认为，移动支付占比飙升的原因之一便是支付宝收钱码的普及。一年来，遍布全国大街小巷的超过4000万小商家，靠这张二维码贴纸实现了收银环节的数字化。仅在福州市，就已有近93%的实体店铺接入了移动支付。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">除了买买买，如今越来越多的生活服务也能借由一台手机完成。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">去年6月底，福州与蚂蚁金服签约，携手推进福州移动智慧城市建设，双方在城市治理、公共服务等领域逐步展开合作。如在医疗服务领域，福州市第一医院、省立医院等智慧医院的建成，让百姓看病更高效；在生活缴费方面，160万福州市民可以通过支付宝完成日常缴费。同时，各地公共服务部门也纷纷通过在支付宝上开设“窗口”，让市民不用出行，坐在家中也能缴费、办事。数据显示，过去一年，最受福建支付宝用户欢迎的几项服务分别是台风查询、公积金查询、违章提醒、交通违法缴罚。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">缴费、购物、出行都能不用钱包的这一便利，也正延伸至更多国家和地区。2017年，支付宝累计接入了36个境外国家和地区的数十万商户，让国人出境游更便利。据统计，去年福州支付宝用户出境游的支付笔数比2016年多了380%，厦门用户出境游的支付比数也比2016年多了整整一倍。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">这一年，移动支付改变的生活方式不仅仅是以上这些。报告指出，通过在线缴纳水电煤等低碳行为，1081万福建用户在蚂蚁森林共减排7.4万吨，累计为地球种下48.8万棵真树，种树量全国第九。通过移动支付积累信用，2017年福州人共信用免押金近3.2亿元，比去年增长8倍。</p>
+<!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

@@ -1,0 +1,21 @@
+<div class="cont_head">
+<h1>
+  “喜迎十九大，记录新福建”系列短视频报道今天推出第六辑 《我爱我“家”》
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-10-06 07:17:57</span> <span id="author_baidu"></span> <span id="source_baidu">来源：<a href="http://fjrb.fjsen.com/fjrb/html/2017-10/06/content_1058242.htm?div=-1">东南网</a></span>  <span id="editor_baidu">责任编辑：周冬</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20206149</articleid><date>2017-10-06 07:17:57.0</date><author></author><title>“喜迎十九大，记录新福建”系列短视频报道今天推出第六辑 《我爱我“家”》</title><keyword>居家养老 家</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148120</nodeid><nodename>社会</nodename><nodesearchname></nodesearchname><picurl>http://fjnews.fjsen.com/images/attachement/jpg/site2/20171006/b881984109471b4102ea01.jpg</picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="center"><img alt="" id="12375239" src="../../images/attachement/jpg/site2/20171006/b881984109471b4102ea01.jpg"/></p>
+<p align="center" style="TEXT-ALIGN: center; TEXT-JUSTIFY: distribute; MARGIN: 0px 3px 15px; TEXT-INDENT: 30px"><font face="楷体">看短视频</font></p>
+<p align="center" style="TEXT-ALIGN: center; TEXT-JUSTIFY: distribute; MARGIN: 0px 3px 15px; TEXT-INDENT: 30px"><font face="楷体">扫二维码</font></p>
+<p align="justify" style="TEXT-ALIGN: justify; TEXT-JUSTIFY: distribute; MARGIN: 0px 3px 15px; TEXT-INDENT: 30px">五年来，省委、省政府高度重视居家养老服务体系建设，将“建设100个社区老年人照料中心”纳入为民办实事项目。福州市鼓楼区东街街道重点打造军门社区居家养老服务照料中心，不断完善、提升社区居家养老服务站功能。《我爱我“家”》讲述95岁高龄的卢希炯和84岁的老伴在军门社区居家养老服务照料中心，享受晚年幸福时光的故事。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

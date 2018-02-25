@@ -1,0 +1,19 @@
+<div class="cont_head">
+<h1>
+  福建省康复医院进入艾力彼榜前五强
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-10-05 07:29:38</span> <span id="author_baidu">储白珊</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：黄丽红</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20204694</articleid><date>2017-10-05 07:29:38.0</date><author>储白珊</author><title>福建省康复医院进入艾力彼榜前五强</title><keyword>康复医院 济华</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148121</nodeid><nodename>民生</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网10月5日讯（福建日报记者储白珊）根据第三方医院评价机构艾力彼日前发布的最新数据显示，福建中医药大学附属康复医院（福建省康复医院）进入2016中国医院竞争力·康复医院全国前5强，位列华东地区榜首。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">艾力彼是医学界公认的权威机构。此次艾力彼围绕康复医院医疗技术、资源配置、医院运行、学术影响力等指标，首次推出全国康复医院50强排行榜。参与排名的包括中国康复研究中心北京博爱医院、广东省工伤康复医院、首都医科大学附属北京康复医院、重庆医科大学附属康复医院、福建中医药大学附属康复医院等在内的50家康复医院。全国通过国际康复质量认证委员会（CARF）认证的7家医疗机构中，有福建中医药大学附属康复医院、广东省工伤康复医院、湘雅博爱康复医院、宁波市康复医院、上海市第五康复医院以及济华骨科康复医院等6家医院入榜。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

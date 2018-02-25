@@ -1,0 +1,33 @@
+<div class="cont_head">
+<h1>
+  你会情不自禁刷微信吗？
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-08-22 08:51:27</span> <span id="author_baidu">程枝文</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20037664</articleid><date>2017-08-22 08:51:27.0</date><author>程枝文</author><title>你会情不自禁刷微信吗？</title><keyword>微信</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148121</nodeid><nodename>民生</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网8月22日讯（福建日报记者 程枝文 实习生 陈雪妹 黄柳洁）</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">“世界上最远的距离，莫过于我就在男朋友身边，然而他却在玩微信，微信才是我们之间的‘第三者’。每次约会他都在玩微信，像犯了毒瘾一样，我们经常因为这事吵架。”福州网友@木木雪儿说。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">微信是公众常用的社交软件。据微信官方统计，去年50%的用户每日使用微信90分钟，25%的微信用户每天打开微信超过30次，55.2%的微信用户每天打开微信超过10次。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong>你，玩微信上瘾吗？</strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong>“斋戒”：每天使用微信的时间不能超过30分钟</strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">上个月，一场吸引了来自IT界、金融、大学等领域85位体验者的“社交斋戒”实验落下帷幕。所谓“斋戒”，即“戒”微信，每天使用它的时间不超过30分钟。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">实验参与者李秋澄，在15天的“斋戒”中，只有1天使用微信超过规定时间。而在此前，每天刷微信两三个小时，是李秋澄的生活常态。“一有空就习惯性地点开它，而且常常是秒回别人信息。”李秋澄说，参加实验，一开始很不适应，“心里总是痒痒的，忍不住要点开微信，就像兜里有烟却抽不了，很难受、很痛苦”。但坚持下来后，他又坦言“后面阶段很轻松”。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">实验后的李秋澄尽管还玩朋友圈，但多了一份理性，不再沉迷，而是有节制地使用。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">李秋澄在网络上为此收获了很多的点赞：“我也应该试试斋戒，看是否能够适应。”“不能再沉迷社交网络了。”“实验很棒，有警示意义。”</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">但另一方面，也有不少网友对“社交斋戒”提出质疑：“微信只是个工具，斋戒没必要。”“这项实验就是个噱头，沉迷与否依人而定。”“短短几天的实验，很难取得实际效用。”</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong>调查：超半数受访者表示会情不自禁刷微信</strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">记者对身边50名朋友进行了随机调查。调查中，45名受访者认为微信给生活带来了便捷，超半数表示会“情不自禁刷微信”，每天使用的时间超过2小时。而造成“情不自禁刷微信”，有多重原因。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">大多数人反映，自己将刷微信当成获取信息的重要渠道，不刷微信怕错过有用信息。不少人忘带手机或手机没电，没法看到亲朋好友的最新动态消息、朋友圈最新资讯等，就会焦虑、心慌、不知所措。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">热衷于发朋友圈的人，将其当作获取社会关注与认同的方式。“微信朋友圈如同一个舞台，通过精心挑选生活事件，利用文字、图像、视频等方式主动呈现个人信息和状态，以构建一个立体的、良好的自我形象,从而获得他人的认同、肯定和嘉奖。”厦门大学新闻传播学院的研究生王宇瑾分析说。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">而热衷于刷朋友圈看别人“秀”的人，则希望借其确认自我。福州市民黄峰说：“朋友圈可以作为一个参照，清楚地知道自己在这个圈里处于什么样的位置，而与不同人进行比较之后，也能更准确地确认自己的价值。”</p>
+<!--/enpcontent--></td> </tr></table><strong></strong><div id="displaypagenum" width="100%"><p><center> <span>[1]</span> <a class="fenye_01" href="content_20037664_2.htm">[2]</a> <a class="fenye_02" href="content_20037664_2.htm">下一页</a> <a class="fenye_02" href="content_20037664_2.htm">尾页</a> <a class="fenye_02" href="content_20037664_all.htm#content_1">显示全文</a></center></p></div><!--/enpcontent-->
+</div>

@@ -1,0 +1,32 @@
+<div class="cont_head">
+<h1>
+  上半年福建接待国内外游客1.61亿人次 游客人均花费1291元
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-08-18 08:07:46</span> <span id="author_baidu">储白珊</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20022326</articleid><date>2017-08-18 08:07:46.0</date><author>储白珊</author><title>上半年福建接待国内外游客1.61亿人次 游客人均花费1291元</title><keyword>游客</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>172777</nodeid><nodename>旅游</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><font face="楷体">上半年，我省接待国内外游客1.61亿人次，游客人均花费1291元，增速明显</font></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px; FONT-FAMILY: 楷体"><font face="楷体">游客为啥愿意来福建花钱？</font></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网8月18日讯（福建日报记者 储白珊）</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">省旅发委近日发布《2017年上半年全省旅游经济运行分析报告》。报告中，有三组数据相当亮眼：</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">上半年，我省接待国内外游客1.61亿人次，同比增长20.5%，增速比上年同期提高4.4个百分点；实现旅游总收入2076.61亿元，同比增长28.3%，增速同比提高7.9个百分点；游客人均花费1291元，同比增加79元，增长6.5%，增速同比提高2.8个百分点。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">记者注意到，这是我省首次公布游客人均花费数。与目前已公布半年度主要数据的四川、湖南、河南、河北、广西等5个省份相比，我省的游客人均花费水平明显要高（四川1205元，湖南813元，河南988元，河北985元，广西1063元）。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong>这意味着什么？</strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong>过夜游人数是“引擎”</strong></p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">在交通便利的情况下，单单一个游客接待人数，并不一定会带来一个地方旅游收入的增加。推高旅游收入的关键因素，是过夜游人数和游客人均花费数。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">而过夜游人数又是游客人均花费数的决定因素。过夜游游客数越高，说明当地旅游产品越丰富、旅游服务越到位，游客也越爱为这趟旅行掏腰包。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">数据显示，今年上半年，我省累计接待过夜游游客8221.02万人次，同比增长19.5%；接待一日游游客7559.21万人次，同比增长22.1%。这是继去年以来，我省第二次接待过夜游游客数超过一日游游客数。过夜游游客占到全省接待游客总量的52.1%。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">以平潭综合实验区为例，以前很少游客愿意住下，旅游大巴拉着客人在石牌洋、仙人井等几个传统景点转转，就驱车前往其他地方住宿。近年来尤其是去年以来，平潭朝着国际旅游岛的建设目标大步迈进，打造海岛特色的旅游产品体系。今年上半年，平潭共接待游客144.69万人次，同比增长34.25%；旅游总收入7.22亿元，同比增长76.52%；游客人均花费达到889元，增速为8.3%，列全省第二位。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">而此次游客人均花费增速列全省第一位的是南平市（增速为8.4%）。长期以来，南平的旅游经济依赖武夷山这个老牌景区，为什么游客人均花费依然增长迅猛？</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">“我们在不断挖掘新的旅游项目，让原本只在武夷山过夜的游客去周边一些县、市体验新的旅游项目。比如上半年，我市已成功创建建阳花花世界、浦城小密包酒文化园2家国家4A级旅游景区。”南平市旅发委负责人告诉记者，“今年我市共有30个旅游项目被列入全省旅游系统休闲重大项目。这些项目建成后，会有更多游客愿意在南平多逗留。”</p>
+<!--/enpcontent--></td> </tr></table><strong></strong><div id="displaypagenum" width="100%"><p><center> <span>[1]</span> <a class="fenye_01" href="content_20022326_2.htm">[2]</a> <a class="fenye_02" href="content_20022326_2.htm">下一页</a> <a class="fenye_02" href="content_20022326_2.htm">尾页</a> <a class="fenye_02" href="content_20022326_all.htm#content_1">显示全文</a></center></p></div><!--/enpcontent-->
+</div>

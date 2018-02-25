@@ -1,0 +1,19 @@
+<div class="cont_head">
+<h1>
+  福建省今年下架无证商户16760户 严管网络食品安全
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-08-25 07:23:12</span> <span id="author_baidu"></span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：林晨</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20052504</articleid><date>2017-08-25 07:23:12.0</date><author></author><title>福建省今年下架无证商户16760户 严管网络食品安全</title><keyword></keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148121</nodeid><nodename>民生</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网8月25日讯（福建日报记者 储白珊 实习生 江毓泓） 记者从省食品药品监督管理局23日举行的新闻发布会上获悉，我省重点拓展网络监管，开展网络食品安全整治，今年截至目前，全省各网络订餐平台共报送入网食品经营者信息12.5万条，清理下架无证商户16760户。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">据介绍，今年初以来，我省大力推进“食品安全放心省”和“食品安全示范城市”创建工作，制定创建“食品安全放心省”5年计划，提出10个方面44项工作重点和128个具体举措，并全部纳入对各级党委政府综治考核、地方政府绩效管理考评的内容。截至目前，全省已出动执法人员22.1万人次，检查生产经营主体27.09万家次；安排食品监督抽检任务3万余批次，食品安全风险监测1.3万批次；完成国家和省级食品抽检任务11557批次，不合格114批次。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

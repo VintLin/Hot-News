@@ -1,0 +1,23 @@
+<div class="cont_head">
+<h1>
+  福建平潭海域船舶碰撞已造成4人死亡、5人失踪
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-08-20 10:10:09</span> <span id="author_baidu">王成</span> <span id="source_baidu">来源：<a href="http://www.fj.xinhuanet.com/kfj/2017-08/20/c_1121511091.htm">新华社</a></span>  <span id="editor_baidu">责任编辑：孙劲贞</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20029528</articleid><date>2017-08-20 10:10:09.0</date><author>王成</author><title>福建平潭海域船舶碰撞已造成4人死亡、5人失踪</title><keyword>福建平潭 船舶碰撞</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148120</nodeid><nodename>社会</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">新华社福州8月19日电（记者 王成）据福建海事局消息，19日凌晨发生在福建平潭附近海域的船舶碰撞事故，截至当日21时，已造成4人死亡、5人失踪。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">19日5时30分许，两艘运输船在福建平潭白姜岛外海附近海域碰撞，其中一艘船舶当即沉没，13人落水。经全力搜救，共有4人获救，目前已脱离生命危险，另有4具遇难者遗体被打捞出水。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">尚未搜寻到的5人，还在全力搜救中。参与搜救的平潭海事局综合业务处处长林国潮介绍，目前现场一方面强化海上、空中、水下立体搜救，潜水员已多次下水探摸；另一方面，进一步扩大搜寻力度，搜救海域面积已扩大至60平方海里。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">此外，海面污染防控工作也已经展开，现场已投入600米围油栏并布设到位，另有6艘清污艇携带2吨吸油毡进行清污作业。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">据悉，东海救助局、海事、渔政、海警等部门继续增调搜救船只和人员，共出动公务船只、社会船只25艘，强化黄金24小时搜救工作。民间组织“平潭蓝天救援队”也于19日上午抵达现场，主动参与对沿岸滩涂、岛礁及海面进行搜寻。（完） </p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"> </p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

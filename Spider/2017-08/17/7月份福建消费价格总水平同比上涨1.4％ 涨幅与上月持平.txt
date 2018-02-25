@@ -1,0 +1,19 @@
+<div class="cont_head">
+<h1>
+  7月份福建消费价格总水平同比上涨1.4％ 涨幅与上月持平
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-08-17 10:04:29</span> <span id="author_baidu">林侃</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>19978171</articleid><date>2017-08-17 10:04:29.0</date><author>林侃</author><title>7月份福建消费价格总水平同比上涨1.4％ 涨幅与上月持平</title><keyword>消费价格总水平</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网8月17日讯（福建日报记者 林侃 通讯员 郭晓洁）国家统计局福建调查总队日前发布数据显示，7月份我省CPI总水平同比上涨1.4％，涨幅与上月持平。其中，城市上涨1.6％，农村上涨1.0％；消费品价格上涨0.8％，服务价格上涨2.5％。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">据统计，八大类商品和服务价格呈“七升一降”，除交通和通信同比下降0.3％，其余各类价格同比涨幅均在0.6％~5.9％。受政策调价、成本增加、市场供求等因素影响，交通费、家庭服务、医疗保健、教育、水电燃料、私房房租等同比分别上涨4.8％、3.4％、3.1％、2.6％、2.3％、2.4％；食品价格上涨0.3％，受季节、气候、市场供求等因素影响，鲜菜、水产品、在外餐饮同比分别上涨10.5％、7.3％和1.8％，薯类、猪肉、蛋类价格同比分别下降16.2％、12.4％和3.4％。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

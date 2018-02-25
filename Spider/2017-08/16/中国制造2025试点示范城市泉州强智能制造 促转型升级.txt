@@ -1,0 +1,24 @@
+<div class="cont_head">
+<h1>
+  "中国制造2025"试点示范城市泉州:强智能制造 促转型升级
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-08-16 16:00:39</span> <span id="author_baidu">钟自炜</span> <span id="source_baidu">来源：<a href="http://paper.people.com.cn/rmrb/html/2017-08/16/nw.D110000renmrb_20170816_2-02.htm">人民日报</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>19970447</articleid><date>2017-08-16 16:00:39.0</date><author>钟自炜</author><title>"中国制造2025"试点示范城市泉州:强智能制造 促转型升级</title><keyword>中国制造</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">什么是五轴联动数控机床？它是高技术含量、高精密度、专门用于加工复杂曲面的机床，适用于汽车发动机加速器、人工关节等复杂曲面精密零件的加工。有人说，数控机床是工业4.0时代的智能制造科技桂冠，那么五轴联动数控机床就是这顶桂冠上的明珠。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">走进泉州嘉泰数控科技公司，这里的GL8—V门型立式五轴加工中心正是公司的主打装备。“我们的产品打破了国外长期垄断，技术指标已达到国外同类产品水平。”董事长苏亚帅自豪地说。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">嘉泰数控的创新成就，正是泉州以“数控一代”建设为抓手、加快制造业转型升级的代表。作为传统制造业大市，泉州既有工业底子厚的优势，也面临推动产业迈向中高端的压力。站在新风口，泉州于2013年启动实施“数控一代”示范工程；2015年发布实施泉州制造2025发展纲要，推进智能制造、服务型制造和质量品牌提升；2016年获批“中国制造2025”试点示范城市。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">在先进制造业宏图展现之际，传统产业亦迸发活力。作为我国三大古瓷都之一，泉州德化县现有陶瓷企业2600多家，是全国最大的陶瓷工艺品生产和出口基地。“陶瓷生产长期采用人工加工模式，赚的是辛苦钱。”从事陶瓷生产近20年的顺美集团总经理郑鹏飞说，去年公司里多了一个新玩意，“投资100多万元，在生产线上引进了一台3D打印机。”</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">3D打印机主要用于制作产品模具。“传统模式下，模具均由手工制作，精度难以保证。一个产品往往要和订货商反复确认好几个月。”郑鹏飞说，如今模具制作实现电子化、数据化，“一款产品几个小时就能确定，精准度与效率大大提高。”</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">转型升级不但提升了产品品质，更扩宽了产品销路。如今，顺美客户包含迪士尼等国际知名企业，产品销往80多个国家和地区。2016年公司工业产值4.27亿元，出口创汇2011万美元。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">“我们正加快用高新技术改造提升传统产业，通过抓一批带动力强的高精尖龙头项目，不断拓展产业链条，打造2—3个千亿高新技术产业群。”泉州市市长康涛表示。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

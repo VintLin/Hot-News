@@ -1,0 +1,22 @@
+<div class="cont_head">
+<h1>
+  福建15个PPP示范项目获中央财政奖补资金
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-08-18 08:15:18</span> <span id="author_baidu">王永珍</span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：房小奇</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20022436</articleid><date>2017-08-18 08:15:18.0</date><author>王永珍</author><title>福建15个PPP示范项目获中央财政奖补资金</title><keyword>PPP</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网8月18日讯（福建日报记者 王永珍）近期，财政部拨付2017年度普惠金融发展专项资金，我省15个PPP示范项目获得奖补资金8400万元，奖补总额居东部省份第三。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">在获得奖补资金的15个PPP示范项目中，单个项目最高奖补金额800万元。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">根据《普惠金融发展专项资金管理办法》，该专项资金主要对符合条件的PPP示范项目按照项目规模给予奖励。其中，投资规模3亿元以下的项目奖励300万元，3亿元（含3亿元）至10亿元的项目奖励500万元，10亿元以上（含10亿元）的项目奖励800万元。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">我省5个项目获800万元奖补资金：海西高速公路网古武线永定至上杭段高速公路工程，泉州市公共文化中心PPP项目，福州市城区北向第二通道（晋安段）PPP项目，漳州台商投资区水环境综合治理PPP项目，武夷新区旅游观光轨道交通武夷山东站至武夷山景区线；7个项目获500万元奖补资金：连城县福地水库PPP项目，南安市城镇污水处理厂及其配套设施，福鼎市城市道路生活垃圾清扫保洁、转运和焚烧发电处理项目，东山县岛外引水第二水源工程，东山县羊角山生态公园，龙海市南太武高新技术产业园区基础设施项目工程（一期）PPP项目，宁化县医院新建项目；3个项目获300万元奖补资金：泉州市洛江区洛阳江流域洛江区河市段综合整治工程PPP项目，宁德市中心城区东区污水处理厂项目，福鼎市前岐镇等9个乡镇及双岳工业园区污水处理厂及场外污水配套收集管网项目。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">此前，省财政厅也累计对全省49个PPP落地项目拨付奖补资金1.34亿元。通过中央和省级财政奖补资金的正向激励，我省PPP项目规范运作加速落地。截至7月底，全省已累计落地项目112个，总投资1439亿元。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

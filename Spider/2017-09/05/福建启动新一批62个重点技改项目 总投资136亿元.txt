@@ -1,0 +1,19 @@
+<div class="cont_head">
+<h1>
+  福建启动新一批62个重点技改项目 总投资136亿元
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-09-05 09:00:59</span> <span id="author_baidu">谢充灵</span> <span id="source_baidu">来源：<a href="http://news.fznews.com.cn/shehui/20170905/59ade6ace6d50.shtml">福州晚报</a></span>  <span id="editor_baidu">责任编辑：林晨</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20089839</articleid><date>2017-09-05 09:00:59.0</date><author>谢充灵</author><title>福建启动新一批62个重点技改项目 总投资136亿元</title><keyword>总投资 技改项目</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">福州新闻网9月5日讯（福州晚报首席记者 谢充灵）昨日记者从省经信委获悉，近日我省启动了新一批62个重点技术改造项目，总投资达136亿元，涉及轻工、食品、电子、石化、建材等行业。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">此次技改项目涵盖了总投资42.2亿元的福建省中科生物股份有限公司“植物工厂产业化技改项目”、总投资25亿元的福建唐源合纤科技有限公司“年产24万吨差别化、功能性锦纶纤维项目”、总投资11亿元的福建安洁儿科技股份有限公司“热风非织造布二期项目”，以及福建京福海洋渔业发展有限公司、福建申远新材料有限公司、百威英博雪津（漳州）啤酒有限公司、福建汉晶光电科技有限公司、长春化工（漳州）有限公司、福建省石狮市通达电器有限公司、福耀玻璃工业集团股份有限公司等企业总投资1亿元以上的项目。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

@@ -1,0 +1,22 @@
+<div class="cont_head">
+<h1>
+  福建省开展校车“隐患清零”行动 将严打“黑校车”
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-08-25 08:17:43</span> <span id="author_baidu">陈海东</span> <span id="source_baidu">来源：<a href="http://news.fznews.com.cn/shehui/20170825/599f61589295b.shtml">福州晚报</a></span>  <span id="editor_baidu">责任编辑：林晨</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20053102</articleid><date>2017-08-25 08:17:43.0</date><author>陈海东</author><title>福建省开展校车“隐患清零”行动 将严打“黑校车”</title><keyword>严打 黑校车</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148121</nodeid><nodename>民生</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">福州新闻网8月25日讯（福州晚报记者 陈海东 通讯员 刘君华）今起，省交警总队在全省开展校车和其他接送学生车辆交通安全隐患清零行动，重点措施包括以下四个方面。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">集中开展安全检查。开学前，警方联合教育行政、交通运输、安监等部门，深入学校及校车企业，逐校、逐企、逐车、逐人全面检查，确保卫星定位装置齐全有效，强化校车安全监管。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">集中开展隐患排查。全面清查校车使用许可、安全技术检验、安全设备配备等情况，禁止使用未取得有效校车标牌和报废、拼装、逾期未检验等存在安全隐患的车辆，以及逃生锤、灭火器、急救箱等安全设备不全或失效的车辆接送学生。全面清查校车驾驶人年审、交通违法、事故责任等情况，对不符合条件的，要严格依法注销校车驾驶资格。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">集中开展整治行动。开学第一周将联合交通运输部门开展校车秩序整治，严查超员、超速、非法改装、不按审核路线行驶等违法行为，严打“黑校车”，并通过执法直播等方式，曝光一批典型交通违法和事故案例。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">集中开展宣传提示。开学第一周上一次新学期交通安全课，组织一次事故逃生和应急处置演练。公布举报电话和网络平台，鼓励群众举报“黑校车”和校车违法行为。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

@@ -1,0 +1,25 @@
+<div class="cont_head">
+<h1>
+  第十三届全运会女子沙排决赛 薛晨、马园园摘银
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-09-07 07:52:36</span> <span id="author_baidu"></span> <span id="source_baidu">来源：<a href="http://www.fjsen.com">东南网</a></span>  <span id="editor_baidu">责任编辑：黄丽红</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20097399</articleid><date>2017-09-07 07:52:36.0</date><author></author><title>第十三届全运会女子沙排决赛 薛晨、马园园摘银</title><keyword>全运会</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148121</nodeid><nodename>民生</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网9月7日讯（福建日报特派记者 杨李超）</p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">“跨省组合”改革的实施，让人们在全运会上见到了更多集体项目的“强强对话”。6日，福建名将薛晨和山东选手马园园的“临时组合”，与国家队强档王凡/岳园展开了女子沙排的最强对话。经过近50分钟的鏖战，配合更默契的王凡/岳园以21∶19和21∶17笑到了最后。</p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">尽管未能卫冕，薛晨依旧表示自己是“跨省组合”的受益者，而且这项举措有利于国家队既有搭档在全运年系统地进行训练和备战，也能让中国沙排更好地选拔人才，准备2020年奥运会。</p>
+<p align="center" style="TEXT-ALIGN: center; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"><strong>贺电</strong></p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">福建省体育代表团：</p>
+<p style="TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">欣闻我省运动员薛晨、李买华、虞琳敏在第十三届全运会女子沙滩排球、帆船男子芬兰人级奥林匹克航线赛、体操女子跳马项目比赛上顽强拼搏，均获得银牌，林超攀、陈惠超在体操男子自由体操、帆船男子激光级奥林匹克航线赛项目比赛上顽强拼搏，均获得铜牌。在此，省政府向你们及获奖人员表示热烈的祝贺！希望全体参赛运动员继续发扬胜不骄、败不馁的精神，再接再厉，在第十三届全运会上夺取更加优异的成绩！</p>
+<p align="right" style="TEXT-ALIGN: right; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">福建省人民政府</p>
+<p align="right" style="TEXT-ALIGN: right; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">2017年9月6日</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

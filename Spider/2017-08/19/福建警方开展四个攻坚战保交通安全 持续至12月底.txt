@@ -1,0 +1,20 @@
+<div class="cont_head">
+<h1>
+  福建警方开展四个攻坚战保交通安全 持续至12月底
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-08-19 09:01:12</span> <span id="author_baidu">陈海东</span> <span id="source_baidu">来源：<a href="http://news.fznews.com.cn/shehui/20170819/599787a812022.shtml">福州新闻网</a></span>  <span id="editor_baidu">责任编辑：孙劲贞</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20027397</articleid><date>2017-08-19 09:01:12.0</date><author>陈海东</author><title>福建警方开展四个攻坚战保交通安全 持续至12月底</title><keyword>清零 四车</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>148121</nodeid><nodename>民生</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">福州新闻网8月19日讯（福州晚报记者 陈海东 通讯员刘君华）省交警总队决定，即日起至12月底，在全省公安交警系统开展“隐患歼灭战、路面防控战、宣传攻势战、共治合成战”等四个攻坚战。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">在隐患歼灭战方面，重点围绕“四车”（“两客一危”、重型货车）检验率、报废率、违法处理率“三率”，持续开展源头隐患“清零”；在路面防控战方面，加密统一行动，做到“五个严管”等。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px"> </p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

@@ -1,0 +1,22 @@
+<div class="cont_head">
+<h1>
+  上半年福建省网络零售额破千亿 电商示范城市领跑全省
+</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<tr>
+<td class="zb" width="659"><span id="pubtime_baidu">2017-08-20 07:50:06</span> <span id="author_baidu">郑璜</span> <span id="source_baidu">来源：东南网</span>  <span id="editor_baidu">责任编辑：孙劲贞</span>        <span><a href="#1">我来说两句</a></span></td>
+<td align="right" class="wb">
+<div class="bdsharebuttonbox"><a class="bds_more" data-cmd="more" href="#"></a><a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博"></a><a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博"></a><a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网"></a><a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</td>
+</tr>
+</table>
+</div><div class="cont-news">
+<!--enpproperty <articleid>20029105</articleid><date>2017-08-20 07:50:06.0</date><author>郑璜</author><title>上半年福建省网络零售额破千亿 电商示范城市领跑全省</title><keyword></keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>844</nodeid><nodename>经济</nodename><nodesearchname></nodesearchname><picurl></picurl>/enpproperty--><!--enpcontent--><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td id="new_message_id"><span class="fplayer"></span><!--enpcontent--><p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">东南网8月20日讯（福建日报记者 郑璜） 记者从省商务厅获悉，上半年，我省电子商务持续向好发展，全省网络零售额达1096亿元，同比增长32.8%。据统计，上半年全省实现社会消费品零售总额6156.40亿元，同比增长11.5%。在消费市场小幅升温的总体态势下，网上零售却保持增势强劲。省商务厅相关处室负责人分析，上半年我省电商发展主要呈现以下特点——</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">实物商品网销持续增长。上半年实物商品网上零售额958亿元，同比增长24.8%，占全省社会消费品零售总额比重为15.6%。个护化妆、珠宝礼品、母婴产品等增速最快，分别达58.4%、40.8%和32.9%。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">电商示范城市领跑全省。泉州、厦门、福州、莆田四个电商示范城市占全省网上零售交易额的九成，泉州在全省占比44.7%，交易额列全省第一。以传统工业为基础的泉州地区超过80%规模以上鞋服企业涉足电子商务，京东商城上已销售的水暖厨卫产品超过60%是泉州品牌，德化县茶具网络销售占全国茶具网络市场近80％份额。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">电子商务与传统产业融合深化。服装、家居家装和运动户外等优势传统产业的网络市场份额分别为30.7%、16.2%和15.9%，占据了全省网络零售超过六成的市场，目前我省已围绕鞋服、陶瓷等优势产业形成了一批基于传统优势产业的行业垂直自营电商平台，同时，淘宝、天猫、京东等平台销售的休闲裤、运动鞋服和羽绒服有近80%产自福建。</p>
+<p align="justify" style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify; TEXT-INDENT: 30px; MARGIN: 0px 3px 15px">网商结构继续优化。我省网上零售平台中，B2C平台占比比去年同期提升7.9个百分点，体现了我省越来越多个体小商户逐渐向企业化转型，品牌电商、品质电商的政策效应逐步显现。</p><!--/enpcontent--></td> </tr></table><strong></strong><!--/enpcontent-->
+</div>

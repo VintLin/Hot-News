@@ -2,7 +2,6 @@ from urllib.request import urlopen
 from urllib.error import HTTPError, URLError
 from urllib.request import urlretrieve
 from bs4 import BeautifulSoup
-import requests
 import os
 import re
 
@@ -29,8 +28,6 @@ def getNews(pageUrl):
         if head is None:
             head = bsObj.find('div', {'class':'line'})
             news = bsObj.find('div', {'id':'zoom'})
-            time = bsObj.find('span', {'id':'pubtime_baidu'}).text[:10]
-            title = head.find('h1').text.strip()
             mnue = news.find('div', {'id':'displaypagenum'})
             if mnue is not None:
                 nextPage = mnue.find('a', text='下一页')                
@@ -39,30 +36,14 @@ def getNews(pageUrl):
                     nextPage = re.sub('content.*htm', nextPage, pageUrl)
                     getNews(nextPage)
             images = news.find_all('img')
-            title = head.find('h1').text.strip()
             for img in images:
                 imgUrl = img['src'].replace('../','')
-                image = imgUrl.split('/')[-1]
-                allImgUrl = mkDirs(imgUrl)
+                mkDirs(imgUrl)
                 urlretrieve('http://fjnews.fjsen.com/'+imgUrl, imgUrl)
         else:
-            return
-            print('break')
             news = bsObj.find('div', {'class':'cont-news'})
-            time = bsObj.find('span',{'id':'pubtime_baidu'}).text[:10]
-            
-
-        title = re.sub('[<>?|"\\\/*:]', '', title)
-        
-        month = time[:7]
-        day = time.split('-')[-1]
         content = str(head) + str(news)
-    
-        dirUrl = re.sub('http:.*\.com/','',pageUrl)
-        print(dirUrl)
-        alldirUrl = mkDirs(dirUrl)
-        with open(alldirUrl + '/'+title+'.txt','w',encoding='utf-8') as w:
-            w.write(content)
+        saveFile(pageUrl, content)
     except AttributeError:
         print('AttributeError')
     except (HTTPError, URLError):
@@ -75,7 +56,21 @@ def mkDirs(dirUrl):
         if not os.path.exists('.'+alldirUrl):
             os.mkdir('.'+alldirUrl)
     return '.' + alldirUrl
-   
+
+def saveFile(dirUrl, content):
+    if dirUrl[:4] == 'http':
+        dirUrl = re.sub('http:.*\.com/','',dirUrl)
+    alldirUrl = ''
+    for d in dirUrl.split('/')[:-1]:
+        alldirUrl = alldirUrl +'/'+ d
+        if not os.path.exists('.'+alldirUrl):
+            os.mkdir('.'+alldirUrl)
+    alldirUrl = '.' + alldirUrl
+    print(alldirUrl)
+    with open(alldirUrl + '/'+dirUrl.split('/')[-1],'w',encoding='utf-8') as w:
+            w.write(content)
+    return True
+
 for i in range(1,11):
     print("count : ",i)
     if i is 1:

@@ -1,15 +1,15 @@
-from urllib.request import urlopen
 from urllib.error import HTTPError, URLError
 from urllib.request import urlretrieve
-from bs4 import BeautifulSoup
 import os
 import re
+import sys
+sys.path.append('..')
+import NewsSpider as ns
 
 pages = set()
 def getLinks(pageUrl):
     global pages
-    html = urlopen(pageUrl)
-    bsObj = BeautifulSoup(html, 'html.parser')
+    bsObj = ns.getSbObj(pageUrl)
     for ul in bsObj.findAll('ul', {'class':'list_page'}):
         for link in ul.findAll('a'):
             if link.attrs['href'] not in pages:
@@ -22,8 +22,7 @@ def getLinks(pageUrl):
                 
 def getNews(pageUrl):    
     try:
-        html = urlopen(pageUrl)
-        bsObj = BeautifulSoup(html, 'html.parser')
+        bsObj = ns.getSbObj(pageUrl)
         head = bsObj.find('div', {'class':'cont_head'})
         if head is None:
             head = bsObj.find('div', {'class':'line'})
@@ -37,13 +36,13 @@ def getNews(pageUrl):
                     getNews(nextPage)
             images = news.find_all('img')
             for img in images:
-                imgUrl = img['src'].replace('../','')
+                imgUrl = 'fjnews.fjsen.com/' + img['src'].replace('../','')
                 mkDirs(imgUrl)
                 urlretrieve('http://fjnews.fjsen.com/'+imgUrl, imgUrl)
         else:
             news = bsObj.find('div', {'class':'cont-news'})
         content = str(head) + str(news)
-        saveFile(pageUrl, content)
+        ns.saveFile(pageUrl, content)
     except AttributeError:
         print('AttributeError')
     except (HTTPError, URLError):
@@ -57,26 +56,13 @@ def mkDirs(dirUrl):
             os.mkdir('.'+alldirUrl)
     return '.' + alldirUrl
 
-def saveFile(dirUrl, content):
-    if dirUrl[:4] == 'http':
-        dirUrl = re.sub('http:.*\.com/','',dirUrl)
-    alldirUrl = ''
-    for d in dirUrl.split('/')[:-1]:
-        alldirUrl = alldirUrl +'/'+ d
-        if not os.path.exists('.'+alldirUrl):
-            os.mkdir('.'+alldirUrl)
-    alldirUrl = '.' + alldirUrl
-    print(alldirUrl)
-    with open(alldirUrl + '/'+dirUrl.split('/')[-1],'w',encoding='utf-8') as w:
-            w.write(content)
-    return True
-
-for i in range(1,11):
-    print("count : ",i)
-    if i is 1:
-        getLinks('http://fjnews.fjsen.com/fjssyw.htm')
-    else:
-        getLinks('http://fjnews.fjsen.com/fjssyw_'+str(i)+'.htm')
-    
+def CrawlPage():
+    for i in range(1,11):
+        print("count : ",i)
+        if i is 1:
+            getLinks('http://fjnews.fjsen.com/fjssyw.htm')
+        else:
+            getLinks('http://fjnews.fjsen.com/fjssyw_'+str(i)+'.htm')
+        
     
 

@@ -9,9 +9,9 @@ sys.path.append('..')
 import NewsSpider as ns
 
 pages = set()
-count = 0
 def getLinks(pageUrl):
     global pages
+    global count
     bsObj = ns.getBsObj(pageUrl)
     for div in bsObj.findAll('div', {'class':'tit-list'}):
         for link in div.findAll('a'):
@@ -29,8 +29,23 @@ def getNews(pageUrl):
         news = bsObj.find('div', {'id':'abody'})
         title = bsObj.find('h1', {'id':'goTop'})
         info = bsObj.find('div', {'class':'info'})
-        content = str(title) + str(info) + str(news)
-        ns.saveFile(pageUrl, content)
+        if title is None or info is None:
+            info = bsObj.find('div', {'class':'slider-top'})
+            title = info.find('h3')
+            time = ns.getTimeInfo(info.find('div', {'class':'slider-tinfo-left'}).find('span').text)
+            content = str(info) + str(news)
+            Type = '全国两会'
+        else :
+            time = ns.getTimeInfo(bsObj.find('span', {'id':'acreatedtime'}).text)        
+            Type = bsObj.find('div', {'class':'crumbs'})
+            if Type is not None:
+                Type = Type.find_all('a')[1].text
+            else:
+                Type = ''
+            content = str(title) + str(info) + str(news)  
+        params = [title.text.strip(), time[0], time[1], Type]
+        print(params)
+        ns.saveFile(pageUrl, content, params)
     except AttributeError:
         print('AttributeError')
 
@@ -40,5 +55,7 @@ def CrawlPage():
         if i is 1:
             getLinks("http://news.cri.cn/roll")
         else:
+            return
             getLinks("http://news.cri.cn/roll-"+str(i)+"")
     print("webpage : ", count)
+CrawlPage()

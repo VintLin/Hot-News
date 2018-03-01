@@ -20,13 +20,15 @@ class NewsDataBase:
         cursor = db.cursor()
         # 使用预处理语句创建表 
         sql = """CREATE TABLE IF NOT EXISTS NEWS 
-        ( PATH CHAR(40) NOT NULL, 
+        ( 
         FILENAME CHAR(20) NOT NULL,
+        PATH CHAR(40) NOT NULL, 
+        WEBSITE CHAR(20) NOT NULL,
         TITLE CHAR(50) NOT NULL, 
         TIME1 CHAR(12) NOT NULL, 
         TIME2 CHAR(10) NOT NULL,
-        WEBSITE CHAR(20),
-        TYPE CHAR(10))""" 
+        TYPE CHAR(10)
+        )""" 
         cursor.execute(sql) 
         # 关闭数据库连接 
         db.close()
@@ -48,7 +50,7 @@ class NewsDataBase:
         cursor = db.cursor() 
         # SQL 插入语句 
         sql = """INSERT INTO NEWS
-                (PATH, FILENAME, TITLE, TIME1, TIME2, WEBSITE, NTYPE) 
+                (FILENAME, PATH, WEBSITE, TITLE, TIME1, TIME2, TYPE) 
                 VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}')""".format(params[0], params[1], params[2], params[3], params[4], params[5], params[6])
         try: 
             # 执行sql语句 
@@ -75,8 +77,10 @@ class NewsDataBase:
             results = cursor.fetchall() 
             params = []
             for row in results: 
-                p = {'path': row[0], 'filename':row[1], 'title':row[2], 'time1':row[3]
-                , 'time2':row[4], 'website':row[5], 'type':row[6]}
+                p = {'filename':row[1], 'path': row[0]
+                , 'website':row[5], 'title':row[2]
+                , 'time1':row[3], 'time2':row[4]
+                , 'type':row[6]}
                 params.append(p)
                 # 打印结果 
             return params

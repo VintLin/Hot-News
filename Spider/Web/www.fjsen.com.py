@@ -1,6 +1,5 @@
 from urllib.error import HTTPError, URLError
 from urllib.request import urlretrieve
-import os
 import re
 import sys
 sys.path.append('..')
@@ -37,8 +36,8 @@ def getNews(pageUrl):
             images = news.find_all('img')
             for img in images:
                 imgUrl = 'fjnews.fjsen.com/' + img['src'].replace('../','')
-                mkDirs(imgUrl)
-                urlretrieve('http://fjnews.fjsen.com/'+imgUrl, imgUrl)
+                ns.makeDir(imgUrl)
+                urlretrieve('http://'+imgUrl, imgUrl)
         else:
             news = bsObj.find('div', {'class':'cont-news'})
         content = str(head) + str(news)
@@ -47,14 +46,6 @@ def getNews(pageUrl):
         print('AttributeError')
     except (HTTPError, URLError):
         print('HTTPError')
-
-def mkDirs(dirUrl):
-    alldirUrl = ''
-    for d in dirUrl.split('/')[:-1]:
-        alldirUrl = alldirUrl +'/'+ d
-        if not os.path.exists('.'+alldirUrl):
-            os.mkdir('.'+alldirUrl)
-    return '.' + alldirUrl
 
 def CrawlPage():
     for i in range(1,11):

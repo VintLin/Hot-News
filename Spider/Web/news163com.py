@@ -1,6 +1,4 @@
-import sys
-sys.path.append('..')
-import NewsSpider as ns
+import Web.NewsSpider as ns
 import re
 
 pages = set()
@@ -11,7 +9,7 @@ def getLinks(pageUrl):
         for link in div.findAll('a'):
             if link.attrs['href'] not in pages:
                 newPage = link.attrs['href']
-                newPage = newPage
+                print(newPage)
                 getNews(newPage)
                 pages.add(newPage)
     
@@ -34,4 +32,4 @@ def getNews(pageUrl):
 
 def CrawlPage():
     getLinks("http://news.163.com/rank/")
-CrawlPage()
+    

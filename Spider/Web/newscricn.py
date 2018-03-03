@@ -4,9 +4,7 @@ Created on Mon Feb 26 17:01:35 2018
 
 @author: 11796
 """
-import sys
-sys.path.append('..')
-import NewsSpider as ns
+import Web.NewsSpider as ns
 
 pages = set()
 def getLinks(pageUrl):
@@ -44,18 +42,14 @@ def getNews(pageUrl):
                 Type = ''
             content = str(title) + str(info) + str(news)  
         params = [title.text.strip(), time[0], time[1], Type]
-        print(params)
         ns.saveFile(pageUrl, content, params)
     except AttributeError:
         print('AttributeError')
 
 def CrawlPage():
     for i in range(1,11):
-        print("count :", i)
         if i is 1:
             getLinks("http://news.cri.cn/roll")
         else:
             return
             getLinks("http://news.cri.cn/roll-"+str(i)+"")
-    print("webpage : ", count)
-CrawlPage()

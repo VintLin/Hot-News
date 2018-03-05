@@ -56,4 +56,4 @@ def CrawlPage():
             getLinks('http://fjnews.fjsen.com/fjssyw.htm')
         else:
             getLinks('http://fjnews.fjsen.com/fjssyw_'+str(i)+'.htm')
-
+#CrawlPage()

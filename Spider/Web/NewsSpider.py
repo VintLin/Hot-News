@@ -43,7 +43,11 @@ def saveFile(URL, content, params):
 
 def getTimeInfo(string):
     time1 = re.search('[0-9]+-[0-9]+-[0-9]+', string).group()
-    time2 = re.search('[0-9]+:[0-9]+:[0-9]+', string).group()
+    time2 = re.search('[0-9]+:[0-9]+:[0-9]+', string)
+    if time2 is None:
+        time2 = re.search('[0-9]+:[0-9]+', string).group() + ':00'
+    else:
+        time2 = time2.group()
     return [time1, time2]
 
 def makeDir(URL):

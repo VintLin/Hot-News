@@ -32,4 +32,4 @@ def getNews(pageUrl):
 
 def CrawlPage():
     getLinks("http://news.163.com/rank/")
-    
+CrawlPage()

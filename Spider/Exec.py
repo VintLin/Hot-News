@@ -10,6 +10,7 @@ import Web.news163com as web1
 import Web.newscricn as web2
 import Web.wwwfjsencom as web3
 import Web.wwwsouthcncom as web4
+import Web.NewsSpider as ns
 def Crawl():
     print('Parent process %s.' % os.getpid())
     p = Pool()
@@ -21,10 +22,16 @@ def Crawl():
     p.close()
     p.join()
     print('All subprocesses done.')
-
+def CrawlWeb():
+    print('BEGIN')
+    web1.CrawlPage()
+    web2.CrawlPage()
+    web3.CrawlPage()
+    web4.CrawlPage()
 if __name__ == '__main__':
    start_time = time.time()
-   Crawl()
+   ns.createDataBase()
+   CrawlWeb()
    end_time = time.time()
    print('Time : ', end_time - start_time)
    

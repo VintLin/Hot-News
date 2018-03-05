@@ -4,7 +4,7 @@ Created on Mon Feb 26 17:01:35 2018
 
 @author: 11796
 """
-import Web.NewsSpider as ns
+import NewsSpider as ns
 
 pages = set()
 def getLinks(pageUrl):
@@ -51,5 +51,5 @@ def CrawlPage():
         if i is 1:
             getLinks("http://news.cri.cn/roll")
         else:
-            return
             getLinks("http://news.cri.cn/roll-"+str(i)+"")
+#CrawlPage()

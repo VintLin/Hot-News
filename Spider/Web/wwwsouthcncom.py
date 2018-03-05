@@ -1,4 +1,4 @@
-import Web.NewsSpider as ns
+import NewsSpider as ns
 
 pages = set()
 def getLinks(pageUrl):
@@ -18,16 +18,22 @@ def getNews(pageUrl):
         news = bsObj.find('div', {'class':'m-article'})
         title = bsObj.find('h2', {'id':'article_title'}).text.strip()
         time = ns.getTimeInfo(bsObj.find('span', {'id':'pubtime_baidu'}).text)
-        Type = bsObj.find('div', {'id':'2014_ad01'}).find_all('a')[-1].text
+        Type = bsObj.find('div', {'id':'2014_ad01'}).find_all('a')
+        if len(Type) is 0:
+            Type = ''
+        else:
+            Type = Type[-1].text
         params = [title, time[0], time[1], Type]
         content = str(news)
-        ns.saveFile(pageUrl, content, params)
+        print(params)
+        #ns.saveFile(pageUrl, content, params)
     except AttributeError:
         print('AttributeError')
 
 def CrawlPage():
-    for i in range(39,51):
+    for i in range(1,51):
         if i is 1:
             getLinks("http://www.southcn.com/pc2016/yw/node_346416.htm")
         else:
             getLinks("http://www.southcn.com/pc2016/yw/node_346416_"+str(i)+".htm")
+CrawlPage()

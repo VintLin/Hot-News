@@ -52,6 +52,7 @@ def getTimeInfo(string):
 
 def makeDir(URL):
     path = '.'#开始在本地建立相应文件夹
+    URL = 'HTMLFILE'+ '/' + URL
     for d in URL.split('/')[:-1]:
         path = path +'/'+ d
         if not os.path.exists(path):

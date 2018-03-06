@@ -11,6 +11,7 @@ import Web.newscricn as web2
 import Web.wwwfjsencom as web3
 import Web.wwwsouthcncom as web4
 import Web.NewsSpider as ns
+import WordCould as wc
 def Crawl():
     print('Parent process %s.' % os.getpid())
     p = Pool()
@@ -22,6 +23,7 @@ def Crawl():
     p.close()
     p.join()
     print('All subprocesses done.')
+    
 def CrawlWeb():
     print('BEGIN')
     web1.CrawlPage()
@@ -32,6 +34,7 @@ if __name__ == '__main__':
    start_time = time.time()
    ns.createDataBase()
    CrawlWeb()
+   wc.GetWordCould('Cloud/newsTitle.txt')
    end_time = time.time()
    print('Time : ', end_time - start_time)
    

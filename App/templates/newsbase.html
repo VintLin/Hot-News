@@ -1,0 +1,71 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}Flasky{% endblock %}
+
+{% block head %}
+{{ super() }}
+<link rel="shortcut icon" href="{{url_for('static',filename='image/hm-logo.png')}}" type="image/x-icon">
+<link rel="icon" href="{{url_for('static',filename='image/hm-logo.png')}}" type="image/x-icon">
+<link rel="stylesheet" href="{{url_for('static',filename='css/news.css')}}" type="text/css">
+{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <img src="{{url_for('static',filename='image/hm-logo.png')}}" style="width:50px; height:50px;"/>
+            <a class="navbar-brand" href="{{ url_for('main.index') }}">HotNews</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="{{ url_for('main.index') }}">Home</a></li>
+                <li><a href="http://momentjs.cn/">{{ moment().format('YYYY-MM-DD hh:mm', refresh=True) }}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            {% block page_content %}
+            {% endblock %}
+        </div>
+        <div class="col-md-4">
+                <div class="list-group">
+                    <a class="list-group-item active" href="{{'/' + type}}">
+                        <h4 class="list-group-item-heading">{{type}}</h4>
+                    </a>
+                    {% for item in typeList %}
+                        <a class="list-group-item" href="{{item['path']}}">
+                            <spen class="badge">
+                                {{item['time']}}
+                            </spen>
+                            <h7 class="list-group-item-heading">
+                                {{item['title']}}
+                            </h7>
+                        </a>
+                    {% endfor%}
+                </div>
+
+                <div class="list-group">
+                    <a class="list-group-item active" href="/time/1">
+                        <h4 class="list-group-item-heading">{{time}}</h4>
+                    </a>
+                    {% for item in timeList %}
+                    <a class="list-group-item" href="{{item['path']}}">
+                        <spen class="badge">
+                            {{item['type']}}
+                        </spen>
+                        <h5 class="list-group-item-heading">
+                            {{item['title']}}
+                        </h5>
+                    </a>
+                    {% endfor%}
+                </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

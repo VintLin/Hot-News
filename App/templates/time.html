@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}HotNews{% endblock %}
+
+{% block page_content %}
+
+<h1 class="page-header">HotNews</h1>
+<div class="container">
+    <ul class="pagination">
+        {% if hasPrev %}
+            <li><a href="/time/{{prevNum}}">&laquo;</a></li>
+        {% endif %}
+        {% for i in range(1, pages)%}
+            {% if i == page %}
+                <li class="active"><a href="/time/{{i}}">{{i}}</a></li>
+            {% elif i == 1 or i == pages - 1 %}
+                <li><a href="/time/{{i}}">{{i}}</a></li>
+            {% elif i > page - 8 and i < page + 8 %}
+                <li><a href="/time/{{i}}">{{i}}</a></li>
+            {% elif i == page -8 or i == page + 8 %}
+                <li><a href="#">...</a></li>
+            {% endif %}
+        {% endfor %}
+        {% if hasNext %}
+            <li><a href="/time/{{nextNum}}">&raquo;</a></li>
+        {% endif %}
+    </ul>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            {% for i in range(len)%}
+                <ul class="list-group">
+                    <h3 class="list-group-item" style="background-color: #7a7a7a; border-color: #7a7a7a; color:#fff; ">{{timeList[i]}}</h3>
+                    {% for v in newsList[i].values() %}
+                    <a class="list-group-item" href="{{v['path']}}">
+                        <span class="badge">
+                            <h7>{{v['type']}}</h7>
+                        </span>
+                        <h4 class="list-group-item-heading">
+                            {{v['title']}}
+                        </h4>
+                        <p class="list-group-item-text">
+
+                        </p>
+                    </a>
+                    {% endfor%}
+                </ul>
+            {% endfor %}
+        </div>
+    </div>
+
+    <ul class="pagination">
+        {% if hasPrev %}
+            <li><a href="/time/{{prevNum}}">&laquo;</a></li>
+        {% endif %}
+        {% for i in range(1, pages)%}
+            {% if i == page %}
+                <li class="active"><a href="/time/{{i}}">{{i}}</a></li>
+            {% elif i == 1 or i == pages - 1 %}
+                <li><a href="/time/{{i}}">{{i}}</a></li>
+            {% elif i > page - 8 and i < page + 8 %}
+                <li><a href="/time/{{i}}">{{i}}</a></li>
+            {% elif i == page -8 or i == page + 8 %}
+                <li><a href="#">...</a></li>
+            {% endif %}
+        {% endfor %}
+        {% if hasNext %}
+            <li><a href="/time/{{nextNum}}">&raquo;</a></li>
+        {% endif %}
+    </ul>
+
+</div>
+{% endblock %}

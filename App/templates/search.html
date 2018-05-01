@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}HotNews{% endblock %}
+
+{% block head %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('static',filename='css/news.css')}}" type="text/css">
+{% endblock%}
+
+{% block page_content %}
+
+
+<div class="container">
+    <div class="page-header">
+        <form class="bs-example bs-example-form search-form" style="margin:0px auto;" role="form" method="POST">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="input-group input-group-lg">
+                        {{form.hidden_tag()}}
+                        {{ form.search(class='form-control',placeholder='Search something ?') }}
+                        <span class="input-group-btn">
+                            {{ form.submit(class='btn btn-default active') }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="list-group">
+                {% for news in newsList %}
+                    <a class="list-group-item" href="{{news.path}}">
+                        <span class="badge">
+                            <h6>{{news.type}}/{{news.time1}}</h6>
+                        </span>
+                        <h4 class="list-group-item-heading">
+                            {{news.title}}
+                        </h4>
+                        <p class="list-group-item-text">
+
+                        </p>
+                    </a>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <ul class="pagination">
+        {% if hasPrev %}
+            <li><a href="/search/{{wd}}/{{prevNum}}">&laquo;</a></li>
+        {% endif %}
+        {% for i in range(1, pages)%}
+            {% if i == page %}
+                <li class="active"><a href="/search/{{wd}}/{{i}}">{{i}}</a></li>
+            {% elif i == 1 or i == pages - 1 %}
+                <li><a href="/search/{{wd}}/{{i}}">{{i}}</a></li>
+            {% elif i > page - 8 and i < page + 8 %}
+                <li><a href="/search/{{wd}}/{{i}}">{{i}}</a></li>
+            {% elif i == page -8 or i == page + 8 %}
+                <li><a href="#">...</a></li>
+            {% endif %}
+        {% endfor %}
+        {% if hasNext %}
+            <li><a href="/search/{{wd}}/{{nextNum}}">&raquo;</a></li>
+        {% endif %}
+    </ul>
+</div>
+{% endblock %}

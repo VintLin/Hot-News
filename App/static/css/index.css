@@ -1,0 +1,47 @@
+.list-group-item.active {
+	z-index: 2;
+	color: #fff;
+	background-color: #7a7a7a;
+	border-color: #7a7a7a;
+}
+
+.panel-default > .panel-heading {
+    color: #ffffff;
+    background-color: #7a7a7a;
+}
+
+#myCarousel{
+    width:900px;
+    height:500px;
+    margin:0px auto;
+    overflow:hidden;
+}
+
+.img{
+    width:900px;
+    background-size:cover;
+}
+
+.badge{
+    background-color: #fb7c67;
+}
+
+.sidebar{
+    width: 250px;
+    position: absolute;
+    right:30px;
+    top:70px;
+}
+
+img.image {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}

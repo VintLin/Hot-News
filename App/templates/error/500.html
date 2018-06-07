@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}HotNews - Internal Server Error{% endblock %}
+
+{% block navbar %}
+    {{super()}}
+    {% block search %}
+    {% endblock%}
+{% endblock %}
+
+{% block page_content %}
+<div class="m-blank center" style="height: 400px;">
+    <h1>Internal Server Error</h1>
+</div>
+{% endblock %}

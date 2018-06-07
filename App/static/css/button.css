@@ -1,0 +1,36 @@
+.group {
+  position: relative;
+  display: inline-block;
+  padding: 13px 0 15px 0;
+  font-size: 0;
+  border: 1px solid;
+  border-radius: 40px;
+}
+.group-img {
+  position: absolute;
+  left: 12px;
+  top: 2px;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 1000px 50px;
+}
+.onclick {
+  background-position: -950px;
+}
+.click {
+  background-position: 0px;
+}
+.group-text {
+  font-size: 20px;
+  position: relative;
+  padding: 18px 30px 18px 55px;
+}
+.group-count {
+  display: inline-block;
+  position: relative;
+  padding: 0px 20px 0px 15px;
+  font-size: 18px;
+  margin-left: -15px;
+  border-left: 1px solid;
+}

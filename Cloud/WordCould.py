@@ -4,9 +4,12 @@ Created on Mon Mar  5 16:05:13 2018
 
 @author: 11796
 """
+#server not have
 from scipy.misc import imread
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, ImageColorGenerator
+#server not have
+
 import jieba.posseg as pseg
 import operator
 import xlwt
@@ -18,7 +21,6 @@ import re
 def GetWordCould(path):
     count = 0
     text = GetText(path)
-    # jbObj = jieba.cut(text, cut_all = False)
     jbObj = pseg.cut(text)
     wordsToExc = {}
     WordsToImg = {}
@@ -32,7 +34,6 @@ def GetWordCould(path):
         count = count + 1
     for key, value in wordsToExc.items():
         WordsToImg[key] = value[0]
-    # print(WordsToImg)
     MakeDir('Save')
     SaveToExcel(wordsToExc, count)
     SaveToJSON(wordsToExc, count)
@@ -75,14 +76,19 @@ def SaveToJSON(words, count):
     sort_words = sorted(words.items(), key=operator.itemgetter(1, 1), reverse=True)
     words = dict(sort_words)
     wordDict = dict()
+    i = 0
     for key, value in words.items():
+        i = i + 1
+        if i is 25:
+            break
         wordDict[key] = {'count': str(value[0]),
-                         'frequency': str(int(value[0]) * 12345 / count)[:5]}
+                         'frequency': str(int(value[0]) * 100000 / count)[:5]}
     jn = json.dumps(wordDict)
     with open('../App/info/Frequency.json', 'w', encoding='utf-8') as f:
         f.write(jn)
 
 
+# server not have
 def SaveToImage(words):
     print('SaveToImage')
     d = os.path.dirname(__file__)
@@ -107,6 +113,7 @@ def SaveToImage(words):
     plt.axis("off")  # 关闭横纵轴
     plt.show()
     wc.to_file(os.path.join(d, imgname1))  # 保存图片
+# server not have
 
 
 def GetText(path):

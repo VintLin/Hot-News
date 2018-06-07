@@ -1,0 +1,183 @@
+{% extends "base.html" %}
+
+{% block title %}HotNews{% endblock %}
+
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/user-black.css')}}" type="text/css">
+
+{% endblock %}
+
+{% block navbar %}
+    {{super()}}
+    {% block search %}
+    {% endblock%}
+{% endblock %}
+
+{% block clear_content %}
+<div class="container">
+    <div class="row m-user-cover" style="margin-bottom: 10px">
+        <div class="header">
+            <div class="info-header">
+                <div class="col-md-1">
+                    <img class="info-user-image" src="{{ current_user.info.gravatar(size=65) }}">
+                </div>
+                <div class="col-md-3">
+                    <div class="info-user-name">
+                        <h3 class="none-style">
+                            <strong>{{ current_user.account }}</strong>
+                            <span><a class="btn" href="{{ url_for('auth.user_info') }}">个人信息</a>/<a class="btn" href="{{ url_for('main.edit_profile') }}">修改</a></span>
+                        </h3>
+                    </div>
+                    <div class="info-user-take">
+                        {% if current_user.info.about_me %}
+                            <h5>{{ current_user.info.about_me }}</h5>
+                        {% else %}
+                            <h5>说些什么吧...</h5>
+                        {% endif%}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="user-nav-bar row">
+            <div class="col-md-1"></div>
+            <div class="col-md-8">
+                <a class="list-item btn" href="{{ url_for('auth.user') }}"><h4><strong>个人主页</strong></h4></a>
+                <a class="list-item btn" href="{{ url_for('auth.user_post') }}"><h4><strong>文章管理</strong></h4></a>
+                <a class="list-item btn" href="{{ url_for('auth.edit_account', oper=0) }}"><h4><strong>账号设置</strong></h4></a>
+                <a class=" btn logout-btn" href="{{ url_for('auth.logout') }}"><h4><strong>退出登入</strong></h4></a>
+            </div>
+            <a href="{{ url_for('auth.user_follow', f=1) }}" class="btn col-md-1">
+                <h4>关 注</h4>
+                <span class="info-tag">{{ current_user.get_follow(True) }}</span>
+            </a>
+            <a  href="{{ url_for('auth.user_follow', f=0) }}" class="btn col-md-1">
+                <h4>粉 丝</h4>
+                <span class="info-tag">{{ current_user.get_follower(True) }}</span>
+            </a>
+            <a class="btn btn-none col-md-1" style="color:#000">
+                <h4>浏 览</h4>
+                <span class="info-tag">{{ current_user.browse }}</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="row m-user-blank">
+        <div class="col-md-12 user-content">
+            {% block info_content %}
+            <h4>
+            <ul id="myTab" class="nav nav-tabs nav-justified">
+                    <li class="active">
+                        <a href="#home" data-toggle="tab">浏览历史</a>
+                    </li>
+                    <li>
+                        <a href="#comment" data-toggle="tab">我的评论</a>
+                    </li>
+                    <li>
+                        <a href="#like" data-toggle="tab">我的点赞</a>
+                    </li>
+                    <li>
+                        <a href="#collect" data-toggle="tab">我的收藏</a>
+                    </li>
+            </ul>
+            </h4>
+
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="home">
+                    <div class="list-group">
+                        {% for history in historys: %}
+                            <a style="" class="list-group-item row" href="{{history.path}}">
+                                <div class="col-md-2 label" style="height: 73px; text-align: center; background-color: #e4e4e4a6; color: #6b6b6b;">
+                                    <h3><strong>{{history.get_oper()}}</strong></h3>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="title list-group-item-heading">
+                                        <h4><strong style="padding-left: 40px; display: grid;">{{history.title}}</strong></h4>
+                                    </div>
+                                    <div class="comment list-group-item-text">
+                                        <div class="row" style="padding-left: 40px;">
+                                            <h5 class="col-md-8">{{history.timestamp}}</h5>
+                                            <h5 class="col-md-4 time"></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="comment">
+                    <div class="list-group">
+                        {% for comment in comments: %}
+                            <a class="list-group-item" href="{{comment.item.path}}">
+                                <div class="title list-group-item-heading">
+                                    <h4><strong style="padding-left: 40px; display: grid;">{{comment.item.title}}</strong></h4>
+                                </div>
+                                <div class="comment list-group-item-text">
+                                    <div class="row" style="padding-left: 40px;">
+                                        <h5 class="col-md-8">评 论 : {{comment.body}}</h5>
+                                        <h5 class="col-md-4 time">{{comment.timestamp}}</h5>
+                                    </div>
+                                    <div class="row" style="padding-left: 55px;">
+                                        <span class="glyphicon glyphicon-eye-open" style="width:80px; margin: 0px auto;"> {{comment.item.browse}}</span>
+                                        <span class="glyphicon glyphicon-thumbs-up" style="width:80px; margin: 0px auto;"> {{comment.item.thumb}}</span>
+                                        <span class="glyphicon glyphicon-folder-open" style="width:80px; margin: 0px auto;"> {{comment.item.collect}}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="like">
+                    <div class="list-group">
+                        {% for thumb in thumbs: %}
+                            <a class="list-group-item" href="{{thumb.item.path}}">
+                                <div class="title list-group-item-heading">
+                                    <h4><strong style="padding-left: 40px; display: grid;">{{thumb.item.title}}</strong></h4>
+                                </div>
+                                <div class="comment list-group-item-text">
+                                    <div class="row" style="padding-left: 40px;">
+                                        <h5 class="col-md-8">
+                                            <span class="glyphicon glyphicon-eye-open" style="width:80px; margin: 0px auto;"> {{thumb.item.browse}}</span>
+                                            <span class="glyphicon glyphicon-thumbs-up" style="width:80px; margin: 0px auto;"> {{thumb.item.thumb}}</span>
+                                            <span class="glyphicon glyphicon-folder-open" style="width:80px; margin: 0px auto;"> {{thumb.item.collect}}</span>
+                                        </h5>
+                                        <h5 class="col-md-4 time">{{thumb.timestamp}}</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+
+
+                <div class="tab-pane fade" id="collect">
+                    <div class="list-group">
+                        {% for collect in collects: %}
+                            <a class="list-group-item" href="{{collect.item.path}}">
+                                <div class="title list-group-item-heading">
+                                    <h4><strong style="padding-left: 40px; display: grid;">{{collect.item.title}}</strong></h4>
+                                </div>
+                                <div class="comment list-group-item-text">
+                                    <div class="row" style="padding-left: 40px;">
+                                        <h5 class="col-md-8">
+                                            <span class="glyphicon glyphicon-eye-open" style="width:80px; margin: 0px auto;"> {{collect.item.browse}}</span>
+                                            <span class="glyphicon glyphicon-thumbs-up" style="width:80px; margin: 0px auto;"> {{collect.item.thumb}}</span>
+                                            <span class="glyphicon glyphicon-folder-open" style="width:80px; margin: 0px auto;"> {{collect.item.collect}}</span>
+                                        </h5>
+                                        <h5 class="col-md-4 time">{{collect.timestamp}}</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endblock %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+

@@ -1,0 +1,39 @@
+p > img {
+    margin: 0px auto;
+    display: block;
+}
+
+.list-group-item.active {
+	z-index: 2;
+	color: #fff;
+	background-color: #86afd0;
+    border-color: #86afd0;
+}
+
+.list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #486b88;
+	border-color: #486b88;
+}
+
+.badge{
+    color: #333042;
+    background-color: #fff;
+}
+
+div .content{
+    margin: 10px;
+}
+
+div .post_time_source{
+    margin: 10px
+}
+
+h2 .title {
+    margin: 10px
+}
+
+.news-content {
+    margin-bottom: 40px
+}

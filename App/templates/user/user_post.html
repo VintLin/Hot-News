@@ -1,0 +1,78 @@
+{% extends "user/user.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block info_content %}
+<h4>
+    <ul id="myTab" class="nav nav-tabs  nav-justified">
+        <li class="active">
+            <a href="#post_publish" data-toggle="tab"> 文 章 </a>
+        </li>
+        <li>
+            <a href="#post_save" data-toggle="tab"> 草稿箱 </a>
+        </li>
+        <li>
+            <a class="btn btn-default btn-lg" href="post_edit?type=0" > 编辑文章 </a>
+        </li>
+    </ul>
+</h4>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="post_publish">
+            <div class="list-group">
+                {% for post in post_publish: %}
+                    <div class="list-group-item" >
+                        <div class="title list-group-item-heading">
+                            <h4 class="row">
+                                <span class=" col-md-8">
+                                    <a href="{{post.path}}" class="btn btn-lg" style="padding-left: 40px;">
+                                        <strong>{{post.title}}</strong>
+                                    </a>
+                                </span>
+                                <span class="col-md-1">
+                                    <a href="post_edit?type=1&post_id={{post.id}}" class="btn center-block">编辑</a>
+                                </span>
+                                <span class="col-md-1">
+                                    <a href="user-post?delete=1&post_id={{post.id}}&user_id={{post.user_id}}" class="btn">删除</a>
+                                </span>
+                            </h4>
+                        </div>
+                        <div class="comment list-group-item-text">
+                            <div class="row" style="padding-left: 40px;">
+                                <h5 class="col-md-8">文 章 : {{post.body[:50]}}...</h5>
+                                <h5 class="col-md-4 time">{{post.timestamp}}</h5>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="tab-pane fade" id="post_save">
+            <div class="list-group">
+                {% for post in post_save: %}
+                    <div class="list-group-item">
+                        <div class="title list-group-item-heading">
+                            <h4 class="row">
+                                <span class=" col-md-8">
+                                    <a href="post_edit?type=1&post_id={{post.id}}" class="btn btn-lg" style="padding-left: 40px;">
+                                        <strong>{{post.title}}</strong>
+                                    </a>
+                                </span>
+                                <span class="col-md-1">
+                                    <a href="post_edit?type=1&post_id={{post.id}}" class="btn center-block">编辑</a>
+                                </span>
+                                <span class="col-md-1">
+                                    <a href="user-post?delete=1&post_id={{post.id}}&user_id={{post.user_id}}" class="btn">删除</a>
+                                </span>
+                            </h4>
+                        </div>
+
+                        <div class="comment list-group-item-text">
+                            <div class="row" style="padding-left: 40px;">
+                                <h5 class="col-md-8">文 章 : {{post.body[:50]}}...</h5>
+                                <h5 class="col-md-4 time">{{post.timestamp}}</h5>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

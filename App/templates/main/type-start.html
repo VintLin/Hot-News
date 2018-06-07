@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}HotNews{% endblock %}
+
+{% block head %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index-black.css')}}" type="text/css">
+{% endblock%}
+
+{% block clear_content %}
+<div class="row">
+    <div class="col-md-12">
+        <div id='type' class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                <h4 class="list-group-item-heading">类型</h4>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                  {% for t in typeList %}
+                                  <li><a href="{{'/' + t}}">{{ t }}</a></li>
+                                  {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {% for i in range(len // 2)%}
+                        <div class="list-group">
+                            <a class="list-group-item active" href="{{'/' + typeList[i]}}">
+                                <h4 class="list-group-item-heading">{{typeList[i]}}</h4>
+                            </a>
+                            {% for k,v in newsList[i].items() %}
+                            <a class="list-group-item" href="{{v}}">
+                                <h5 class="list-group-item-heading">
+                                    {{k}}
+                                </h5>
+                                <p class="list-group-item-text">
+
+                                </p>
+                            </a>
+                            {% endfor%}
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="col-md-6">
+                    {% for i in range(len // 2, len)%}
+                        <div class="list-group">
+                            <a class="list-group-item active" href="{{'/' + typeList[i]}}">
+                                <h4 class="list-group-item-heading">{{typeList[i]}}</h4>
+                            </a>
+                            {% for k,v in newsList[i].items() %}
+                            <a class="list-group-item" href="{{v}}">
+                                <h5 class="list-group-item-heading">
+                                    {{k}}
+                                </h5>
+                                <p class="list-group-item-text">
+
+                                </p>
+                            </a>
+                            {% endfor%}
+                        </div>
+
+                    {% endfor %}
+                </div>
+            </div>
+    </div>
+</div>
+{% endblock %}

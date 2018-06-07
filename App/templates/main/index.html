@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}HotNews{% endblock %}
+
+{% block head %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index-black.css')}}" type="text/css">
+{% endblock%}
+
+{% block clear_content %}
+    <div class="row">
+
+        <div class="col-md-9">
+            <div id="myCarousel" class="carousel slide" >
+                <!-- 轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="{{ news[0].path }}">
+                            <img class="img" src="{{'static' + news[0].image}}" alt="First slide">
+                            <div class="carousel-caption"><h5>{{ news[0].title }}</h5></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="{{news[1].path}}">
+                            <img class="img" src="{{'static' + news[1].image}}" alt="Second slide">
+                            <div class="carousel-caption"><h5>{{ news[1].title }}</h5></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="{{news[2].path}}">
+                            <img class="img" src="{{'static' + news[2].image}}" alt="Third slide">
+                            <div class="carousel-caption"><h5>{{ news[2].title }}</h5></div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 轮播（Carousel）导航 -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div style="margin:50px;"> </div>
+            <ul class="post-list m-cover">
+                {% for news in newsList %}
+                    <a class="post-list-item row btn" href="{{news.path}}" style="text-align: inherit;">
+                        <div class="col-md-2">
+                            <img class="news-image" src="static{{ news.image }}">
+                        </div>
+                        <div class="col-md-10">
+                            <div>
+                                <span style="font-size: 16px;">来自 </span>
+                                <span style="font-size: 20px;">{{news.website}} </span>
+                                <h4 class="pull-right" style="margin-right: 35px;">{{news.type}}/{{news.time.__str__()[:10]}}</h4>
+                            </div>
+                            <div><h3 class="post-title"><strong>{{ news.title }}</strong></h3></div>
+                            <div>...
+                                <span class="pull-right">
+                                    <span class="glyphicon glyphicon-eye-open" style="width:80px; margin: 0px auto;"> {{news.browse}}</span>
+                                    <span class="glyphicon glyphicon-thumbs-up" style="width:80px; margin: 0px auto;"> {{news.thumb}}</span>
+                                    <span class="glyphicon glyphicon-folder-open" style="width:80px; margin: 0px auto;"> {{news.collect}}</span>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <div class="sidebar">
+                <a class="list-group-item active"><h4>热度</h4></a>
+                {% for k, v in wordDict.items() %}
+                <a class="list-group-item" href="/search/{{k}}/1">
+                    <span class="badge hot">
+                        {{v['frequency']}}
+                    </span>
+                    <h4 class="list-group-item-heading">
+                        {{k}}
+                    </h4>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

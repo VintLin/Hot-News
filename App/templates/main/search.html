@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}HotNews{% endblock %}
+
+{% block navbar %}
+    {{super()}}
+    {% block search %}
+    {% endblock%}
+{% endblock %}
+
+{% block page_content %}
+<div class="container m-cover">
+    <div class="page-header">
+        <form class="bs-example bs-example-form search-form" style="margin:0px auto;" role="form" method="POST">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="input-group input-group-lg">
+                        {{form.hidden_tag()}}
+                        {{ form.search(class='form-control',placeholder='Search...') }}
+                        <span class="input-group-btn">
+                            {{ form.submit(class='btn btn-search') }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    {% if pagination.hasItem %}
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-group">
+                    {% for news in pagination.items %}
+                        <a class="list-group-item" href="{{news.path}}">
+                            <span class="badge">
+                                <h8>{{news.type}}/{{news.time.__str__()[:10]}}</h8>
+                            </span>
+                            <h4 class="list-group-item-heading">
+                                {{news.title.replace(wd, '<span class="text-primary">{}</span>'.format(wd)) | safe}}
+                            </h4>
+                            <p class="list-group-item-text">
+
+                            </p>
+                        </a>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+    {% else %}
+        <div style="margin: 200px 0px">
+            <h2 class="text-center text-danger"><em>无法搜索到相关字段...</em></h2>
+        </div>
+    {% endif %}
+    <div class="page-header">
+        <ul class="pagination">
+            {% if pagination.hasPrev %}
+                <li><a href="/search/{{wd}}/{{pagination.page-1}}">&laquo;</a></li>
+            {% endif %}
+            {% for i in range(1, pagination.pages + 1)%}
+                {% if i == pagination.page %}
+                    <li class="active"><a href="/search/{{wd}}/{{i}}">{{i}}</a></li>
+                {% elif i == 1 or i == pagination.pages%}
+                    <li><a href="/search/{{wd}}/{{i}}">{{i}}</a></li>
+                {% elif i > pagination.page - 8 and i < pagination.page + 8 %}
+                    <li><a href="/search/{{wd}}/{{i}}">{{i}}</a></li>
+                {% elif i == pagination.page -8 or i == pagination.page + 8 %}
+                    <li><a href="#">...</a></li>
+                {% endif %}
+            {% endfor %}
+            {% if pagination.hasNext %}
+                <li><a href="/search/{{wd}}/{{pagination.page+1}}">&raquo;</a></li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

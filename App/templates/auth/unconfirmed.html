@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}HotNews - Confirm your account{% endblock %}
+
+{% block navbar %}
+    {{super()}}
+    {% block search %}
+    {% endblock%}
+{% endblock %}
+
+{% block clear_content %}
+<div class="page-header inform-text m-cover center" xmlns="http://www.w3.org/1999/html" style="margin-top:200px;">
+    <h2>
+        Hello, <strong>{{ current_user.account }} </strong> ! <br /><small>您还没有验证您的账户.</small>
+    </h2>
+    <h4>
+        在您访问此站点之前, 您需要确认您的帐户.<br />
+        请点击下方链接,之后我们将向您发送一份邮件.
+    </h4>
+    <h4>
+        点此链接,完成验证:
+        <a href="{{ url_for('auth.resend_confirmation') }}">请点击这里.</a>
+    </h4>
+</div>
+{% endblock %}

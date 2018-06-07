@@ -1,0 +1,42 @@
+<div class="c-button">
+  <div class="group">
+    {%if isCollect %}
+      <span class="collect group-img onclick"></span>
+    {% else %}
+      <span class="collect group-img click"></span>
+    {% endif%}
+    <span class="group-text">收藏</span>
+    <span class="group-count c-count">{{operand.collect}}</span>
+  </div>
+</div>
+<script>
+collect_count = {{isCollect}};
+$(document).ready(function(){
+  $(".c-button").click(function() {
+      len = parseInt($(".collect").css("background-position").replace("px", ""));
+      count = parseInt($(".c-count").text())
+      collect_count++;
+      minuend = len == -950? -50: 50;
+      count = collect_count%2 == 1? count + 1: count - 1;
+      $(".c-count").text(count)
+      do{
+        len -= minuend;
+        $(".collect").delay(15).animate({"background-positionX": len + "px"}, 1);
+      }while(len > -950 && len < 0);
+  })
+})
+</script>
+<style type="text/css">
+.collect {
+  background-image: url(/static/image/collect.png);
+}
+.c-button {
+  display: inline-block;
+  color: #EA6F5A;
+}
+.c-button:hover {
+  background-color: #ffdbdb73;
+  border-radius: 40px;
+}
+
+</style>

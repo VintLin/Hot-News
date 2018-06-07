@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}HotNews{% endblock %}
+
+{% block navbar %}
+    {{super()}}
+    {% block search %}
+    {% endblock%}
+{% endblock %}
+
+{% block clear_content %}
+    <div class="col-md-6  col-md-push-3" id="login-box">
+        <div class="page-header">
+            <h2><strong>登录</strong></h2>
+        </div>
+        {{ wtf.quick_form(form) }}
+        <div class="other">
+            <a class="pull-left" href="{{ url_for('auth.register')}}">注册</a>
+            <span class="pull-right">忘记密码?<a href="{{ url_for('auth.password_reset_request') }}">点击这里</a>. </span>
+        </div>
+    </div>
+
+{% endblock %}

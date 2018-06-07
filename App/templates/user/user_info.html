@@ -1,0 +1,79 @@
+{% extends "user/user.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block info_content %}
+    <div class="row big">
+        <table class="table">
+            <caption class="row">
+                <div class="col-md-10 center">
+                    <h1>{{ current_user.account }}</h1>
+                </div>
+                <div class="col-md-2 center" style="margin-top: 22px;">
+                    <a class="btn-default" href="{{ url_for('main.edit_profile') }}" style="padding: 5px 10px;">修改</a>
+                </div>
+            </caption>
+            <tbody>
+            {% if info.about_me %}
+                <tr>
+                    <td><strong class="st">简介 : </strong></td>
+                    <td>{{ info.about_me }}</td>
+                </tr>
+            {% endif %}
+            {% if info.phone %}
+                <tr>
+                    <td><strong class="st">电话 : </strong></td>
+                    <td>{{ info.phone }}</td>
+                </tr>
+            {% endif %}
+            {% if current_user.email %}
+                <tr>
+                    <td><strong class="st">邮箱 : </strong></td>
+                    <td>{{ current_user.email }}</td>
+                </tr>
+            {% endif %}
+            {% if info.sex %}
+                <tr>
+                    <td><strong class="st">性别 : </strong></td>
+                    <td>{{ info.sex }}</td>
+                </tr>
+            {% endif %}
+            {% if info.birthday %}
+                <tr>
+                    <td><strong class="st">生日 : </strong></td>
+                    <td>{{ info.birthday }}</td>
+                </tr>
+            {% endif %}
+            {% if info.hometown %}
+                <tr>
+                    <td><strong class="st">故乡 : </strong></td>
+                    <td>{{ info.hometown }}</td>
+                </tr>
+            {% endif %}
+            {% if info.location %}
+                <tr>
+                    <td><strong class="st">所在地 : </strong></td>
+                    <td>{{ info.location }}</td>
+                </tr>
+            {% endif %}
+            {% if info.job %}
+                <tr>
+                    <td><strong class="st">职业 : </strong></td>
+                    <td>{{ info.job }}</td>
+                </tr>
+            {% endif %}
+            {% if info.company %}
+                <tr>
+                    <td><strong class="st">公司 : </strong></td>
+                    <td>{{ info.company }}</td>
+                </tr>
+            {% endif %}
+            {% if info.school %}
+                <tr>
+                    <td><strong class="st">学校 : </strong></td>
+                    <td>{{ info.school }}</td>
+                </tr>
+            {% endif %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

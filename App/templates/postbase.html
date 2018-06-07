@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% block title %}HoteNews{% endblock %}
+
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/news-black.css')}}" type="text/css">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row news-content">
+        <div class="col-md-8 m-cover">
+            <ul class="posts list-group ">
+                <li class="row list-group-item">
+                    <div class = 'post'>
+                        <div class = 'title'>
+                            <h2><strong>{{operand.title}}</strong><small></small></h2>
+                        </div>
+                        <div class = 'post_time_source row'>
+                            <div class="col-md-1" style="padding: 0px;">
+                                <a href="/user/{{ operand.info.name}}">
+                                    <img class="post-small-icon" src="{{ operand.info.gravatar(size=40) }}">
+                                </a>
+                            </div>
+                            <div class="col-md-11">
+                                <p class="text-left text-muted">作者 : {{operand.info.name}} </p>
+                                <p class ='text-left text-muted'>时间 : {{operand.timestamp}}
+                                    <span class="glyphicon glyphicon-eye-open" style="margin-left:20px"></span> {{operand.browse}}
+                                    <span class="glyphicon glyphicon-thumbs-up" style="margin-left:20px"></span> {{operand.thumb}}
+                                    <span class="glyphicon glyphicon-folder-open" style="margin-left:20px"></span> {{operand.collect}}
+                                </p>
+                            </div>
+                        </div>
+                        <p class="lead">
+
+                        </p>
+                        <div class = 'content'>
+                            {{operand.body_html | safe}}
+                        </div>
+                    </div>
+                </li>
+                {% if current_user.can(Permission.WRITE) %}
+                <li class="row list-group-item" style="padding:30px;">
+                    <div class="col-md-4">
+                        {% include "button/thumb.html" %}
+                    </div>
+                    <div class="col-md-4">
+                        {% include "button/collect.html" %}
+                    </div>
+                    <div class="col-md-4">
+                        {% include "button/transpond.html" %}
+                    </div>
+                </li>
+                <li id="post" class="row list-group-item">
+                        {{ wtf.quick_form(comment_form) }}
+                    </li>
+                    {% for comment in pagination.items %}
+                        <li class="post row list-group-item">
+                        <div class="post-thumbnail col-md-1">
+                            <a href="/user/{{ comment.info.name}}">
+                                <img class="img-rounded profile-thumbnail" src="{{ comment.info.gravatar(size=40) }}">
+                            </a>
+                        </div>
+
+                        <div class="post-content col-md-11">
+                            <div class="row">
+                                <div class="post-date col-md-2"><a href="/user/{{ comment.info.name }}">{{ comment.info.name }}</a></div>
+                                <div class="post-author col-md-2 col-md-push-8">{{ comment.timestamp.__str__()[5:-3] }}</div>
+                            </div>
+                            <div class="post-body">{{ comment.body }}</div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                <div class="list-group-item row" style="text-align: center;">
+                        <ul class="pagination" style="margin: 0px;">
+                            {% if pagination.hasPrev %}
+                                <li><a href="{{url}}?{{pagination.page-1}}">&laquo;</a></li>
+                            {% endif %}
+                            {% for i in range(1, pagination.pages + 1)%}
+                                {% if i == pagination.page %}
+                                    <li class="active"><a href="{{url}}?page={{i}}">{{i}}</a></li>
+                                {% elif i == 1 or i == pagination.pages%}
+                                    <li><a href="{{url}}?page={{i}}">{{i}}</a></li>
+                                {% elif i > pagination.page - 8 and i < pagination.page + 8 %}
+                                    <li><a href="{{url}}?page={{i}}">{{i}}</a></li>
+                                {% elif i == pagination.page -8 or i == pagination.page + 8 %}
+                                    <li><a href="#">...</a></li>
+                                {% endif %}
+                            {% endfor %}
+                            {% if pagination.hasNext %}
+                                <li><a href="{{url}}?{{pagination.page+1}}">&raquo;</a></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                {% else %}
+                <li class="list-group-item center row">
+                    <a class="row end-bottom btn"  href="{{ url_for('auth.login') }}">
+                        <h4><strong>登录</strong></h4>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

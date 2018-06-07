@@ -1,0 +1,238 @@
+{% extends "base.html" %}
+
+{% block title %}HotNews - Password Reset{% endblock %}
+
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/user.css')}}" type="text/css">
+{% endblock %}
+
+{% block navbar %}
+    {{super()}}
+    {% block search %}
+    {% endblock%}
+{% endblock %}
+
+{% block clear_content %}
+<div class="container">
+    <div class="row m-user-cover" style="margin-bottom: 10px">
+        <div class="header">
+            <div class="info-header">
+                <div class="col-md-1">
+                    <img class="info-user-image" src="{{ user.info.gravatar(size=65) }}">
+                </div>
+                <div class="col-md-3">
+                    <div class="info-user-name">
+                        <h3 class="none-style">
+                            <strong>{{ user.account }}</strong>
+                        </h3>
+                    </div>
+                    <div class="info-user-take">
+                        {% if user.info.about_me %}
+                            <h5>{{ user.info.about_me }}</h5>
+                        {% else %}
+                            <h5>Ta很懒什么也没有留下...</h5>
+                        {% endif%}
+                    </div>
+                </div>
+                <div class="col-md-6"></div>
+                <div class="col-md-2">
+                    {% if current_user.can(Permission.FOLLOW) and user.id != current_user.id %}
+                        {% if not current_user.is_follow(user) %}
+                        <a href="" class="btn-follow btn follow">
+                            <span class="glyphicon glyphicon-user"></span> 关注</a>
+                        {% else %}
+                        <a href="" class="btn-follow btn unfollow">
+                            <span class="glyphicon glyphicon-user"></span> 取消关注</a>
+                        {% endif %}
+                        <style>
+                        .header {
+                            background-image: url(/static/image/background-other-user.png)
+                            }
+                        </style>
+                    {% elif current_user.can(Permission.FOLLOW)%}
+                        <h4 class="you-page"><span> 你的主页 </span></h4>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="user-nav-bar row">
+            <div class="col-md-1"></div>
+            <div class="col-md-8">
+                <a class="list-item btn" href="#home" data-toggle="tab"><h4><strong>动态</strong></h4></a>
+                <a class="list-item btn" href="#user-info" data-toggle="tab"><h4><strong>信息</strong></h4></a>
+            </div>
+            <a href="#user-follow" class="btn col-md-1" data-toggle="tab">
+                <h4>关 注</h4>
+                <span class="info-tag">{{ user.get_follow(True) }}</span>
+            </a>
+            <a href="#user-follower" class="btn col-md-1" data-toggle="tab">
+                <h4>粉 丝</h4>
+                <span class="info-tag follower">{{ user.get_follower(True) }}</span>
+            </a>
+            <a class="btn btn-none col-md-1" style="color:#000">
+                <h4>浏 览</h4>
+                <span class="info-tag">{{ user.browse }}</span>
+            </a>
+        </div>
+    </div>
+    <div id="myTabContent" class="tab-content">
+        <div class=" tab-pane fade in active row m-user-blank" id="home" style="padding: 10px 30px;">
+            <div class="list-group">
+                {% for history in historys: %}
+                    <a style="" class="list-group-item row" href="{{history.path}}">
+                        <div class="col-md-2 label" style="height: 73px; text-align: center; background-color: #e4e4e4a6; color: #6b6b6b;">
+                            <h3><strong>{{history.get_oper()}}</strong></h3>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="title list-group-item-heading"><h4><strong style="padding-left: 40px;">{{history.title}}</strong></h4></div>
+                            <div class="comment list-group-item-text">
+                                <div class="row" style="padding-left: 40px;">
+                                    <h5 class="col-md-8">{{history.timestamp}}</h5>
+                                    <h5 class="col-md-4 time"></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="tab-pane fade row m-user-blank" id="user-info">
+            <div class="col-md-12 user-content">
+                <div class="row big " style="font-size: 22px;">
+                    <table class="table">
+                        <caption>
+
+                        </caption>
+                        <tbody>
+                        {% if user.info.about_me %}
+                            <tr>
+                                <td><strong class="st">简介 : </strong></td>
+                                <td>{{ user.info.about_me }}</td>
+                            </tr>
+                        {% endif %}
+                        {% if user.info.phone %}
+                            <tr>
+                                <td><strong class="st">电话 : </strong></td>
+                                <td>{{ user.info.phone }}</td>
+                            </tr>
+                        {% endif %}
+                        {% if user.info.sex %}
+                            <tr>
+                                <td><strong class="st">性别 : </strong></td>
+                                <td>{{ user.info.sex }}</td>
+                            </tr>
+                        {% endif %}
+                        {% if user.info.birthday %}
+                            <tr>
+                                <td><strong class="st">生日 : </strong></td>
+                                <td>{{ user.info.birthday }}</td>
+                            </tr>
+                        {% endif %}
+                        {% if user.info.hometown %}
+                            <tr>
+                                <td><strong class="st">故乡 : </strong></td>
+                                <td>{{ user.info.hometown }}</td>
+                            </tr>
+                        {% endif %}
+                        {% if user.info.location %}
+                            <tr>
+                                <td><strong class="st">所在地 : </strong></td>
+                                <td>{{ user.info.location }}</td>
+                            </tr>
+                        {% endif %}
+                        {% if user.info.job %}
+                            <tr>
+                                <td><strong class="st">职业 : </strong></td>
+                                <td>{{ user.info.job }}</td>
+                            </tr>
+                        {% endif %}
+                        {% if user.info.company %}
+                            <tr>
+                                <td><strong class="st">公司 : </strong></td>
+                                <td>{{ user.info.company }}</td>
+                            </tr>
+                        {% endif %}
+                        {% if user.info.school %}
+                            <tr>
+                                <td><strong class="st">学校 : </strong></td>
+                                <td>{{ user.info.school }}</td>
+                            </tr>
+                        {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade row m-user-blank" id="user-follow">
+            {%for follow in follows: %}
+                <a class="list-group-item" href="/user/{{follow.name}}">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <img class="info-user-image" src="{{ follow.gravatar(size=65) }}">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info-user-name">
+                                <h3 class="none-style">
+                                    <strong>{{ follow.name }}</strong>
+                                </h3>
+                            </div>
+                            <div class="info-user-take">
+                                {% if follow.about_me %}
+                                    <h5>{{ follow.about_me }}</h5>
+                                {% else %}
+                                    <h5>Ta很懒什么也没有留下...</h5>
+                                {% endif%}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            {%endfor%}
+        </div>
+        <div class="tab-pane fade row m-user-blank" id="user-follower">
+            {%for follower in followers: %}
+                <a class="list-group-item" href="/user/{{follower.name}}">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <img class="info-user-image" src="{{ follower.gravatar(size=65) }}">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info-user-name">
+                                <h3 class="none-style">
+                                    <strong>{{ follower.name }}</strong>
+                                </h3>
+                            </div>
+                            <div class="info-user-take">
+                                {% if follower.about_me %}
+                                    <h5>{{ follower.about_me }}</h5>
+                                {% else %}
+                                    <h5>Ta很懒什么也没有留下...</h5>
+                                {% endif%}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            {%endfor%}
+        </div>
+    </div>
+</div>
+<script>
+$(document).ready(function(){
+    $(".btn-follow").click(function(){
+    $.post("/ajax/follow?id={{user.id}}", function(data,status){
+        if(data['f'] == 1) {
+            $(".btn-follow").text("取消关注");
+            $(".btn-follow").addClass("unfollow")
+            $(".btn-follow").removeClass("follow")
+            }
+        else {
+            $(".btn-follow").text("关注");
+            $(".btn-follow").addClass("follow")
+            $(".btn-follow").removeClass("unfollow")
+        }
+    });
+  })
+});
+</script>
+{% endblock %}

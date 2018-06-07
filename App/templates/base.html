@@ -1,38 +1,113 @@
 {% extends "bootstrap/base.html" %}
-
-{% block title %}Flasky{% endblock %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}HoteNews{% endblock %}
 
 {% block head %}
 {{ super() }}
 <link rel="shortcut icon" href="{{url_for('static',filename='image/hm-logo.png')}}" type="image/x-icon">
 <link rel="icon" href="{{url_for('static',filename='image/hm-logo.png')}}" type="image/x-icon">
+<link rel="stylesheet" href="{{url_for('static', filename='css/base-black.css')}}" type="text/css">
+<link rel="stylesheet" href="{{url_for('static', filename='css/button.css')}}" type="text/css">
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="{{url_for('static', filename='js/tool.js')}}"></script>
 {% endblock %}
 
 {% block navbar %}
-<div class="navbar navbar-inverse" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <img src="{{url_for('static',filename='image/hm-logo.png')}}" style="width:50px; height:50px;"/>
-            <a class="navbar-brand" href="{{ url_for('main.index') }}">HotNews</a>
+<div class="header-fixed">
+    <div class="navbar navbar-default cover-navbar">
+        <div class="navbar-content">
+            <div class="container">
+                <div class="navbar-header">
+                    <img src="{{url_for('static',filename='image/hm-logo.png')}}" style="width:57px; height:57px;"/>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{{ url_for('main.index') }}"><h4><strong>首页</strong></h4></a></li>
+                        <li><a href="/time/1"><h4>时间</h4></a></li>
+                        <li><a href="/types"><h4>类型</h4></a></li>
+                        <li><a href="/user-post/1"><h4>文章</h4></a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right" style="position: relative;">
+                        <li><a href="http://momentjs.cn/"><h4 style="margin: 0px; margin-top:3px">{{ moment().format('YYYY-MM-DD hh:mm', refresh=True) }}</h4></a></li>
+                        {% if current_user.is_authenticated %}
+                        <li class="login" >
+                            <a href="{{ url_for('auth.user') }}"><h4>{{ current_user.account }}</h4></a>
+                        </li>
+                        <ii>
+                            <img class="m-user-image" src="{{ current_user.info.gravatar(size=50) }}">
+                        </ii>
+                        {% else %}
+                        <li class="login"><a href="{{ url_for('auth.login') }}"><h4>登录</h4></a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="{{ url_for('main.index') }}">Home</a></li>
-                <li><a href="/time/1">Time</a></li>
-                <li><a href="http://momentjs.cn/">{{ moment().format('YYYY-MM-DD hh:mm', refresh=True) }}</a></li>
-            </ul>
+        {% for message in get_flashed_messages() %}
+        <div class="is-error alert">
+            <div class="reb-error">
+            </div>
+            <div class="info-error">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                {{ message }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% block search %}
+    <span class="m-click" style="background-image: url(/static/image/search.png);"></span>
+    <div class="head-content m-panel">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="{{url_for('static',filename='image/HotNews.png')}}" style="width: 350px; height: 165px; display: block;"/>
+                </div>
+
+                <div class="col-md-4 search" style="height: 165px;">
+                    <div class="cover-search">
+                        <form class="bs-example bs-example-form search-form"  role="form" method="POST" >
+                            <div class="input-group input-group-lg">
+                                {{form.hidden_tag()}}
+                                {{ form.search(class='form-control',placeholder='Search...') }}
+                                <span class="input-group-btn">
+                                    {{ form.submit(class='btn btn-search') }}
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    {% endblock %}
 </div>
+<div class="m-box" style="margin:80px;"></div>
 {% endblock %}
 
 {% block content %}
-<div class="container">
-    {% block page_content %}{% endblock %}
+<div class="container box" style="background-color: #fff; border-radius: 20px; padding: 0px;">
+    {% block page_content %}
+    {% endblock %}
+</div>
+
+<div class="container box" style="padding: 0px;">
+    {% block clear_content %}
+    {% endblock %}
+</div>
+
+<div class="navbar" style="background-color: #222; color: #fff;margin: 0px;text-align: center; hight: 100px;margin-top:600px">
+    <div id="footer" class="container">
+        <h4 class="row">
+            <span>Copyright &copy; 2018-2018</span>
+            <span style="margin:0px 30px"><a href="//www.voterlin.cn/" target="_blank">HotNews</a></span>&nbsp;
+            <span>All Rights Reserved.</span>
+       </h4>
+    </div>
 </div>
 {% endblock %}
 
 {% block scripts %}
 {{ super() }}
 {{ moment.include_moment() }}
+{{ pagedown.include_pagedown() }}
 {% endblock %}

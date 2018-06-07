@@ -4,58 +4,44 @@ Created on Sat Mar  3 15:00:13 2018
 
 @author: 11796
 """
+# import sys
+# sys.path.append('..')
+# ^server have
+
 import os
 import time
 from multiprocessing import Pool
-from Spider import NewsSpider
-import Spider.Web.news163com as web1
-import Spider.Web.newscricn as web2
-import Spider.Web.wwwfjsencom as web3
-import Spider.Web.wwwsouthcncom as web4
+from Spider.Website import Website
+from Spider import SpiderTool
 
 
-def Crawl(stool, ftool):
+def Crawl():
     print('Parent process %s.' % os.getpid())
     p = Pool()
-    spider1 = web1.news163com(stool, ftool)
-    spider2 = web2.newscricn(stool, ftool)
-    spider3 = web3.wwwfjsencom(stool, ftool)
-    spider4 = web4.wwwsouthcncom(stool, ftool)
-
-    p.apply_async(spider1.CrawlPage)
-    p.apply_async(spider2.CrawlPage)
-    p.apply_async(spider3.CrawlPage)
-    p.apply_async(spider4.CrawlPage)
+    subs = Website.__subclasses__()
+    for s in subs:
+        p.apply_async(s().crawl())
     print('Waiting for all subprocesses done...')
     p.close()
     p.join()
     print('All subprocesses done.')
 
 
-def CrawlWeb(stool, ftool):
+def CrawlWeb():
     print('BEGIN')
-    spider1 = web1.news163com(stool, ftool)
-    spider2 = web2.newscricn(stool, ftool)
-    spider3 = web3.wwwfjsencom(stool, ftool)
-    spider4 = web4.wwwsouthcncom(stool, ftool)
-
-    spider1.CrawlPage()
-    spider2.CrawlPage()
-    spider3.CrawlPage()
-    spider4.CrawlPage()
+    subs = Website.__subclasses__()
+    for s in subs:
+        s().crawl()
 
 
 def Exec():
     start_time = time.time()
-    stool = NewsSpider.SpiderTool()
     if os.path.exists('page'):
         print('Run Again')
-        ftool = NewsSpider.FileTool(flag=False)
     else:
-        print('Init Web Model')
-        ftool = NewsSpider.FileTool(flag=True)
-        ftool.createDataBase()
-    CrawlWeb(stool, ftool)
+        print('INIT WEB MODEL')
+        SpiderTool.FileTool.setInitFlag()
+    CrawlWeb()
     end_time = time.time()
     print('Time : ', end_time - start_time)
 

@@ -1,51 +1,66 @@
-from Spider import NewsSpider
-from Model import News
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb 26 17:01:35 2018
+
+@author: Voter
+"""
+from Spider.Website import Website
 
 
-class wwwsouthcncom:
-    def __init__(self, stool, ftool):
-        self.pages = set()
-        self.STOOL = stool
-        self.FTOOL = ftool
-
-    def getLinks(self, pageUrl):
-        bsObj = self.STOOL.getBsObj(pageUrl)
-        for div in bsObj.findAll('div', {'class': 'j-link'}):
-            for link in div.findAll('a'):
-                if link.attrs['href'] not in self.pages:
-                    newPage = link.attrs['href']
-                    self.pages.add(newPage)
-                    print(newPage)
-
-    def getNews(self, pageUrl):
-        try:
-            news = News.News()
-            bsObj = self.STOOL.getBsObj(pageUrl)
-            text = bsObj.find('div', {'class': 'm-article'})
-            time = NewsSpider.getTimeInfo(bsObj.find('span', {'id': 'pubtime_baidu'}).text)
-            Type = bsObj.find('a', {'class': 'crm-link'})
-            if Type is None or len(Type) is 0:
-                Type = '其他'
-            else:
-                Type = Type.text
-            content = str(text)
-            news.title = bsObj.find('h2', {'id': 'article_title'}).text.strip()
-            news.time1 = time[0]
-            news.time2 = time[1]
-            news.type = Type
-            self.FTOOL.saveFile(pageUrl, content, news)
-        except AttributeError:
-            print('AttributeError')
-
-    def CrawlPage(self):
-        for i in range(1, 50):
+class wwwsouthcncom(Website):
+    def fromRank(self):
+        for i in range(1, 40):
             if i is 1:
                 self.getLinks("http://www.southcn.com/pc2016/yw/node_346416.htm")
             else:
                 self.getLinks("http://www.southcn.com/pc2016/yw/node_346416_" + str(i) + ".htm")
-        for page in self.pages:
-            self.getNews(page)
+
+    def getLinks(self, url):
+        bs_obj = self.S.getBsObj(url)
+        for div in bs_obj.findAll('div', {'class': 'j-link'}):
+            for link in div.findAll('a'):
+                if link.attrs['href'] not in self.pages:
+                    new_page = link.attrs['href']
+                    self.pages.add(new_page)
+
+    def getTime(self, bs_obj):
+        time = bs_obj.find('span', {'id': 'pubtime_baidu'}).text
+        time = self.S.getTimeInfo(time)
+        return time
+
+    def getTitle(self, bs_obj):
+        title = bs_obj.find('h2', {'id': 'article_title'}).text.strip()
+        return title
+
+    def getSource(self, bs_obj):
+        source = bs_obj.find('span', {'id': 'source_baidu'}).text.split('：')[1]
+        return source
+
+    def getEditor(self, bs_obj):
+        editor = bs_obj.find('div', {'class': 'm-editor'}).text.split('：')[1]
+        return editor
+
+    def getText(self, bs_obj):
+        text = bs_obj.find('div', {'class': 'm-article'})
+        return text
+
+    def getType(self, bs_obj):
+        type = bs_obj.find('a', {'class': 'crm-link'})
+        if type is None or len(type) is 0:
+            type = '其他'
+        else:
+            type = type.text
+        return type
+
+    def getImage(self, bs_obj):
+        text = bs_obj.find('div', {'class': 'm-article'})
+        image = text.find('img')
+        if image:
+            return image.attrs['src']
+        else:
+            return ''
 
 
 if __name__ == '__main__':
     spider = wwwsouthcncom()
+    spider.crawl()

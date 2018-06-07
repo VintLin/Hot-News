@@ -1,0 +1,38 @@
+{% extends "user/user.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block info_content %}
+<div id="myTabContent" class="tab-content">
+    {% if isEmail %}
+     <div class="tab-pane fade in active" id="change_email">
+        <div class="page-header">
+            <h1>更改您的邮箱
+                <a class="btn btn-default btn-lg" href="pwd"> 重置密码 </a>
+            </h1>
+        </div>
+        <div class="col-md-6  col-md-push-3">
+            {{ wtf.quick_form(form) }}
+            <div style="margin-top:30px;">
+                注意 : 修改邮箱后, 系统将会为您的新邮箱发送邮件, 等完成验证后系统才会更新您的信息。
+            </div>
+        </div>
+
+    </div>
+    {% else %}
+    <div class="tab-pane fade in active" id="reset_password">
+        <div class="page-header">
+            <h1>重置您的密码
+                <a class="btn btn-default btn-lg" href="eml"> 更改邮箱 </a>
+            </h1>
+        </div>
+        <div class="col-md-6  col-md-push-3">
+            {{ wtf.quick_form(form) }}
+        </div>
+    </div>
+    {% endif %}
+    <style>
+        .m-user-blank {
+            min-height: 450px;
+        }
+    </style>
+</div>
+{% endblock %}

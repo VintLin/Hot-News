@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}HotNews{% endblock %}
+
+{% block page_content %}
+<div class="container m-cover" style="padding: 20px 10px;">
+    {% if pagination.hasItem %}
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="post-list">
+                    {% for post in pagination.items %}
+                        <a class="post-list-item row btn" href="{{post.path}}" style="text-align: inherit;">
+                            <div class="col-md-1">
+                                <img class="post-icon" src="{{ post.get_user().gravatar(size=60) }}">
+                            </div>
+                            <div class="col-md-11">
+                                <div>
+                                    <span style="font-size: 20px;">{{post.get_user().name}} </span>
+                                    <span style="font-size: 16px;">发表了文章</span>
+                                    <h4 class="pull-right" style="margin-right: 35px;">{{post.type}}/{{post.timestamp.__str__()[:10]}}</h4>
+                                </div>
+                                <div><h3 class="post-title"><strong>{{ post.title }}</strong></h3></div>
+                                <div>{{ post.body[:50] }}...
+                                    <span class="pull-right">
+                                        <span class="glyphicon glyphicon-eye-open" style="width:80px; margin: 0px auto;"> {{post.browse}}</span>
+                                        <span class="glyphicon glyphicon-thumbs-up" style="width:80px; margin: 0px auto;"> {{post.thumb}}</span>
+                                        <span class="glyphicon glyphicon-folder-open" style="width:80px; margin: 0px auto;"> {{post.collect}}</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+    {% else %}
+        <div style="margin: 200px 0px">
+            <h2 class="text-center text-danger"><em>暂时还没有文章...</em></h2>
+        </div>
+    {% endif %}
+    <div class="page-header">
+        <ul class="pagination">
+            {% if pagination.hasPrev %}
+                <li><a href="/user-post/{{pagination.page-1}}">&laquo;</a></li>
+            {% endif %}
+            {% for i in range(1, pagination.pages + 1)%}
+                {% if i == pagination.page %}
+                    <li class="active"><a href="/user-post/{{i}}">{{i}}</a></li>
+                {% elif i == 1 or i == pagination.pages%}
+                    <li><a href="/user-post/{{i}}">{{i}}</a></li>
+                {% elif i > pagination.page - 8 and i < pagination.page + 8 %}
+                    <li><a href="/user-post/{{i}}">{{i}}</a></li>
+                {% elif i == pagination.page -8 or i == pagination.page + 8 %}
+                    <li><a href="#">...</a></li>
+                {% endif %}
+            {% endfor %}
+            {% if pagination.hasNext %}
+                <li><a href="/user-post/{{pagination.page+1}}">&raquo;</a></li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

@@ -8,7 +8,7 @@ translate(words)
 @author: Voter
 """
 import json
-from Spider import NewsSpider as ns
+from Spider import SpiderTool as ns
 
 
 def __getParams(words):

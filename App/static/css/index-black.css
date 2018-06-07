@@ -1,0 +1,42 @@
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #486b88;
+    border-color: #486b88;
+}
+
+.img{
+    width:900px;
+    background-size:cover;
+}
+
+.badge{
+    background-color: #fb7c67;
+    color: #fff;
+}
+
+img.image {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+#myCarousel {
+    border-radius: 20px;
+    border: 5px solid #5c6a75;
+    overflow: hidden;
+}
+
+.news-image {
+    width: 120px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 5px solid #b1b1b1;
+}

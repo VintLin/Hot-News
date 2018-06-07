@@ -1,0 +1,28 @@
+{% extends "user/user.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block info_content %}
+
+<div class="row" id="post_edit">
+    <div class="head">
+        <h1>开始编辑文章吧:<a class="btn btn-default btn-lg pull-right" href="user-post" style="padding: 5px 30px;">返 回</a></h1>
+    </div>
+    <HR>
+    <div class="col-md-12">
+        {{ wtf.quick_form(form) }}
+    </div>
+</div>
+
+<style type="text/css">
+    .head {
+        margin: 0px 35px
+    }
+    #flask-pagedown-body {
+        max-height: 1000px;
+        min-height: 600px;
+    }
+
+    .form {
+        margin:20px;
+    }
+</style>
+{% endblock %}

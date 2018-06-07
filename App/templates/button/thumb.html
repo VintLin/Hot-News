@@ -1,0 +1,54 @@
+<div class="t-button">
+  <div class="group">
+    {%if isThumb %}
+      <span class="thumb group-img onclick"></span>
+    {% else %}
+      <span class="thumb group-img click"></span>
+    {% endif%}
+    <span class="group-text">点赞</span>
+    <span class="group-count t-count">{{operand.thumb}}</span>
+  </div>
+</div>
+<script>
+thumb_count = {{isThumb}};
+$(document).ready(function(){
+  $(".t-button").click(function() {
+      len = parseInt($(".thumb").css("background-position").replace("px", ""));
+      count = parseInt($(".t-count").text())
+      thumb_count++;
+      minuend = len == -950? -50: 50;
+      count = thumb_count%2 == 1? count + 1: count - 1;
+      $(".t-count").text(count)
+      do{
+        len -= minuend;
+        $(".thumb").delay(15).animate({"background-positionX": len + "px"}, 1);
+      }while(len > -950 && len < 0);
+  })
+})
+
+window.onbeforeunload = function(event) {
+  if({{isThumb}} != thumb_count%2) {
+    del = {{isThumb}} > thumb_count%2 ? 1: 0;
+    $.post("/ajax/thumb?id={{operand.id}}&oper={{operand.get_oper()}}&del="+del);
+   }
+  if({{isCollect}} != collect_count%2) {
+    del = {{isCollect}} > collect_count%2 ? 1: 0;
+    $.post("/ajax/collect?id={{operand.id}}&oper={{operand.get_oper()}}&del="+del);
+  }
+}
+</script>
+
+<style type="text/css">
+.thumb {
+  background-image: url(/static/image/thumb.png);
+}
+.t-button {
+  display: inline-block;
+  color: #5a83ea;
+}
+.t-button:hover {
+  background-color: #b7cbff45;
+  border-radius: 40px;
+}
+
+</style>

@@ -1,12 +1,15 @@
-from Database.SaveToDatabase import NewsDataBase
-from Spider import NewsSpider as ns
+# import sys
+# sys.path.append('..')
+# ^ server have
+
+from Model.model import News
+from Spider import SpiderTool as ns
 import Cloud.WordCould as wc
 import re
 import os
 import json
 import shutil
 
-__ND = NewsDataBase()
 __TEXTPATH = '../Cloud/Text/newsTitle.txt'
 __TYPES = '../App/info/Types.json'  # 新闻类型
 __TIMES = '../App/info/Times.json'  # 时刻
@@ -16,24 +19,28 @@ __PATH = '../App/info/'
 
 
 def saveInfo(textPath, types, times):
+    print('SAVE INFO')
     text = ''
+    newsList = News().select(oderby='time', isasc=False)
+    print(len(newsList))
     newsType = set()
-    newsTime = set()
+    newsTime = []
 
-    ns.makeDir(textPath)
-    newsList = __ND.Select('select * from news')
     for news in newsList:
         text = text + news.title
         newsType.add(news.type)
-        newsTime.add(news.time1)
+        time = str(news.time)[:10]
+        if time not in newsTime:
+            newsTime.append(time)
 
+    ns.makeDir(textPath)
     with open(textPath, 'w', encoding='utf-8') as n:
         n.write(text)
 
-    timeList = []
+    context = {}
     for i in range(len(newsTime)):
-        timeList.append(newsTime.pop())
-    context = sortTimeList(timeList)
+        context[i] = newsTime[i]
+
     jn = json.dumps(context)
     with open(times, 'w') as f:
         f.write(jn)
@@ -41,33 +48,19 @@ def saveInfo(textPath, types, times):
     context = {}
     for i in range(len(newsType)):
         context[i] = newsType.pop()
+
     jn = json.dumps(context)
     with open(types, 'w') as f:
         f.write(jn)
 
 
-def sortTimeList(timeList):
-    tList = []
-    for s in timeList:
-        sl = s.split('-')
-        tList.append((int(sl[0]), int(sl[1]), int(sl[2])))
-    tList = sorted(tList, key=lambda x: x[2], reverse=True)
-    tList = sorted(tList, key=lambda x: x[1], reverse=True)
-    tList = sorted(tList, key=lambda x: x[0], reverse=True)
-    toStr = lambda x: '0' + str(x) if len(str(x)) is 1 else str(x)
-    tDict = {}
-    for i in range(len(tList)):
-        tDict[i] = '{}-{}-{}'.format(toStr(tList[i][0]), toStr(tList[i][1]), toStr(tList[i][2]))
-    return tDict
-
-
 def saveTypeToTitle(typePath, types):
+    print("SAVE TYPE : TITLE")
     typeToInfo = dict()
     with open(types, 'r', encoding='utf-8') as f:
         typeDict = json.loads(f.read())
-
     for v in typeDict.values():
-        newsList = __ND.Select('select * from news where TYPE = "{}"'.format(v))
+        newsList = News(type=v).select(oderby='time', isasc=False)
         titleToUrl = dict()
         count = 0
         for news in newsList:
@@ -76,19 +69,19 @@ def saveTypeToTitle(typePath, types):
             if count is 5:
                 break
         typeToInfo[v] = titleToUrl
-
     jn = json.dumps(typeToInfo)
     with open(typePath, 'w') as f:
         f.write(jn)
 
 
 def saveTimeToTitle(timePath, times):
+    print("SAVE TYPE : TITLE")
     timeToInfo = dict()
     with open(times, 'r', encoding='utf-8') as f:
         timeDict = json.loads(f.read())
-
     for v in timeDict.values():
-        newsList = __ND.Select('select * from news where TIME1 = "{}" order by id asc limit 5'.format(v))
+        newsList = News().set_period(field='time', time_slot='+24:0:0', moment=v+' 00:00:00').\
+            select(oderby='time', isasc=False, limit=5)
         titleToUrl = dict()
         for news in newsList:
             titleToUrl[news.title] = news.path
@@ -99,16 +92,17 @@ def saveTimeToTitle(timePath, times):
 
 
 def saveUrlWithType(path, types):
+    print("SAVE URL : TYPE")
     with open(types, 'r', encoding='utf-8') as f:
         urlDict = json.loads(f.read())
     for t in urlDict.values():
         typeDict = dict()
         itemDict = dict()
-        newsList = __ND.Select('select * from news where TYPE = "{}"'.format(t))
+        newsList = News(type=t).select(oderby='time', isasc=False)
         for i in range(len(newsList)):
             itemDict['title'] = newsList[i].title
             itemDict['path'] = newsList[i].path
-            itemDict['time'] = newsList[i].time1
+            itemDict['time'] = str(newsList[i].time)[:10]
             typeDict[i] = itemDict.copy()
         jn = json.dumps(typeDict)
         with open(path + 'type/' + t + '.json', 'w') as f:
@@ -116,12 +110,14 @@ def saveUrlWithType(path, types):
 
 
 def saveUrlWithTime(path, times):
+    print("SAVE URL : TIME")
     with open(times, 'r', encoding='utf-8') as f:
         urlDict = json.loads(f.read())
     for t in urlDict.values():
         timeDict = dict()
         itemDict = dict()
-        newsList = __ND.Select('select * from news where TIME1 = "{}"'.format(t))
+        newsList = News().set_period(field='time', time_slot='+24:0:0', moment=t+' 00:00:00').\
+            select(oderby='time', isasc=False)
         for i in range(len(newsList)):
             itemDict['title'] = newsList[i].title
             itemDict['path'] = newsList[i].path
@@ -129,6 +125,30 @@ def saveUrlWithTime(path, times):
             timeDict[i] = itemDict.copy()
         jn = json.dumps(timeDict)
         with open(path + 'time/' + t + '.json', 'w') as f:
+            f.write(jn)
+
+
+def savePageWithTime(path):
+    print("SAVE PAGE : TIME")
+    times = []
+    page_dict = {}
+    p = News().set_pagination(1, 30).select(oderby='time', isasc=False).pages
+    for i in range(1, p):
+        pages = News().set_pagination(i, 30).select(oderby='time', isasc=False)
+        for item in pages.items:
+            time = str(item.time)[:10]
+            if not times:
+                page_dict[i] = {}
+            if time not in times:
+                times.append(time)
+                page_dict[i][time] = [{'title': item.title, 'path': item.path, 'type': item.type}]
+            else:
+                page_dict[i][time].append({'title': item.title, 'path': item.path, 'type': item.type})
+        times.clear()
+
+    for k, v in page_dict.items():
+        with open(path + 'times/' + str(k) + '.json', 'w') as f:
+            jn = json.dumps(v)
             f.write(jn)
 
 
@@ -144,18 +164,31 @@ def copyTree(opath, npath):
 
 def removeInfo():
     rmTree('../App/info')
-    copyTree('../Spider/page', '../App/templates/page')
+    copyTree('page', '../App/templates/page')
+    copyTree('news_image', '../App/static/news_image')
 
     ns.makeDir(__TEXTPATH)
     ns.makeDir(__PATH + '/type/')
     ns.makeDir(__PATH + '/time/')
+    ns.makeDir(__PATH + '/times/')
 
     saveInfo(textPath=__TEXTPATH, types=__TYPES, times=__TIMES)
     saveTypeToTitle(typePath=__TYPEPATH, types=__TYPES)
     saveTimeToTitle(timePath=__TIMEPATH, times=__TIMES)
     saveUrlWithType(path=__PATH, types=__TYPES)
     saveUrlWithTime(path=__PATH, times=__TIMES)
+    savePageWithTime(path=__PATH)
+    getImage('../App/info/image.txt')
     reBuild('../App/templates/page')
+
+
+def getImage(path):
+    news = News().select(limit=100, oderby='time', isasc=False)
+    for n in news:
+        if n.image and len(n.image.split('/')[-1]) > 20:
+            print(n.image)
+            with open(path, 'a', encoding='utf-8') as f:
+                f.write(str(n.id) + '\n')
 
 
 BASE = '''{% extends "newsbase.html" %} 
@@ -179,9 +212,12 @@ def reBuild(url):
                 f.write(BASE.replace('@', context))
 
 
-if __name__ == '__main__':
+def Exec():
     print('BEGIN')
-    # saveInfo(textPath=__TEXTPATH, types=__TYPES, times=__TIMES)
     removeInfo()
     wc.GetWordCould(__TEXTPATH)
     print('END')
+
+
+if __name__ == '__main__':
+    Exec()

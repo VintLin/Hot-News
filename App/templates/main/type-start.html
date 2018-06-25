@@ -24,7 +24,7 @@
                         <div class="panel-body">
                             <ul class="nav navbar-nav">
                                   {% for t in typeList %}
-                                  <li><a href="{{'/' + t}}">{{ t }}</a></li>
+                                  <li><a href="/type/{{t}}">{{ t }}</a></li>
                                   {% endfor %}
                             </ul>
                         </div>
@@ -35,7 +35,7 @@
                 <div class="col-md-6">
                     {% for i in range(len // 2)%}
                         <div class="list-group">
-                            <a class="list-group-item active" href="{{'/' + typeList[i]}}">
+                            <a class="list-group-item active" href="/type/{{typeList[i]}}">
                                 <h4 class="list-group-item-heading">{{typeList[i]}}</h4>
                             </a>
                             {% for k,v in newsList[i].items() %}
@@ -54,7 +54,7 @@
                 <div class="col-md-6">
                     {% for i in range(len // 2, len)%}
                         <div class="list-group">
-                            <a class="list-group-item active" href="{{'/' + typeList[i]}}">
+                            <a class="list-group-item active" href="/type/{{typeList[i]}}">
                                 <h4 class="list-group-item-heading">{{typeList[i]}}</h4>
                             </a>
                             {% for k,v in newsList[i].items() %}

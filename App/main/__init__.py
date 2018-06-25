@@ -3,7 +3,7 @@ from flask import Blueprint
 main = Blueprint('main', __name__)
 
 from . import views, errors
-from Model.model import Permission
+from model.model import Permission
 
 
 @main.app_context_processor

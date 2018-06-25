@@ -1,9 +1,9 @@
-from flask import render_template, session, redirect, url_for, current_app, abort, flash, request
+from flask import render_template, redirect, url_for, abort, flash, request
 from flask_login import login_required, current_user
 from App.decorators import admin_required
 from . import main
 from .forms import *
-from Model.model import *
+from model.model import *
 import json
 import os
 
@@ -22,11 +22,11 @@ def index():
 
     with open('info/Frequency.json', 'r', encoding='utf-8') as f:
         wordDict = json.loads(f.read())
-
-    news = []
-    news_list = []
     with open('info/image.txt', 'r', encoding='utf-8') as f:
         lines = f.readlines()
+    news = []
+    news_list = []
+
     for i in range(len(lines)):
         if i < 3:
             news.append(News(id=str(lines[i])).select(getone=True))
@@ -80,22 +80,33 @@ def type_list_page():
                            form=form)
 
 
-@main.route('/<type>', methods=['GET', 'POST'])
+@main.route('/show-table', methods=['GET', 'POST'])
+def tablePage():
+    form = SearchForm()
+    if form.validate_on_submit():
+        wd = form.search.data
+        return redirect('/search/{}/1'.format(wd))
+    return render_template('/main/table.html', form=form)
+
+
+@main.route('/type/<type>', methods=['GET', 'POST'])
 def typePage(type):
     form = SearchForm()
     if form.validate_on_submit():
         wd = form.search.data
         return redirect('/search/{}/1'.format(wd))
-
-    with open('info/type/' + type + '.json', 'r', encoding='utf-8') as f:
-        titleDict = json.loads(f.read())
-    itemList = []
-    for item in titleDict.values():
-        itemList.append(item)
-    return render_template('/main/type.html',
-                           itemList=itemList,
-                           type=type,
-                           form=form,)
+    try:
+        with open('info/type/' + type + '.json', 'r', encoding='utf-8') as f:
+            titleDict = json.loads(f.read())
+        itemList = []
+        for item in titleDict.values():
+            itemList.append(item)
+        return render_template('/main/type.html',
+                               itemList=itemList,
+                               type=type,
+                               form=form, )
+    except FileNotFoundError:
+        abort(404)
 
 
 @main.route('/time/<int:page>', methods=['GET', 'POST'])
@@ -104,22 +115,23 @@ def timePage(page):
     if form.validate_on_submit():
         wd = form.search.data
         return redirect('/search/{}/1'.format(wd))
-
-    with open('info/times/'+str(page)+'.json', 'r', encoding='utf-8') as f:
-        timesDict = json.loads(f.read())
-
-    pages = len(os.listdir('info/times'))
-    hasPrev = page is not 1
-    hasNext = page is not pages - 1
-    return render_template('/main/time.html',
-                           timesDict=timesDict,
-                           form=form,
-                           page=page,
-                           prevNum=page - 1,
-                           nextNum=page + 1,
-                           hasPrev=hasPrev,
-                           hasNext=hasNext,
-                           pages=pages)
+    try:
+        with open('info/times/'+str(page)+'.json', 'r', encoding='utf-8') as f:
+            timesDict = json.loads(f.read())
+        pages = len(os.listdir('info/times'))
+        hasPrev = page is not 1
+        hasNext = page is not pages - 1
+        return render_template('/main/time.html',
+                               timesDict=timesDict,
+                               form=form,
+                               page=page,
+                               prevNum=page - 1,
+                               nextNum=page + 1,
+                               hasPrev=hasPrev,
+                               hasNext=hasNext,
+                               pages=pages)
+    except FileNotFoundError:
+        abort(404)
 
 
 @main.route('/user-post/<int:page>', methods=['GET'])
@@ -295,13 +307,13 @@ def edit_profile_admin(id):
     if not account.account:
         abort(404)
     info = Info()
-    info.id = account.info_id
+    info.id = account.id
     info.select(getone=True)
     form = EditProfileAdminForm(account=account)
     if form.validate_on_submit():
         account.account = check(form.username.data)
         account.confirmed = check(form.confirmed.data)
-        account.role_id = check(account.role.data)
+        account.role_id = check(form.role.data)
         account.update()
         info.realname = check(form.realname.data)
         info.about_me = check(form.about_me.data)

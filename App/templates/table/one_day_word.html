@@ -1,0 +1,25 @@
+<div  style="height: 600px;">
+  <canvas id="table"></canvas>
+</div>
+<script>
+$(document).ready(function(){
+  $.get("/ajax/table?type=0", function(result){
+      var ctx = document.getElementById("table");
+      var table = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: result['labels'],
+                                datasets: [{
+                                    label: "单日词频分析",
+                                    data: result['data'],
+                                    backgroundColor: 'rgba(255, 125, 85)',
+                                    borderColor: 'rgba(255,200,132)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {scales: {yAxes: [{ticks: {beginAtZero:true}}]}}
+                          });
+  });
+
+})
+</script>

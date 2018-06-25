@@ -1,7 +1,7 @@
 from flask import render_template, redirect, request, url_for, flash, session, abort
 from flask_login import login_user, login_required, logout_user, current_user
 from .forms import *
-from Model.model import *
+from model.model import *
 from . import auth
 from App.tool.sendEmail import sendEmail
 
@@ -22,20 +22,16 @@ def login():
 @login_required
 def user():
     comments = Comment(user_id=current_user.id).select(limit=50, oderby='timestamp', isasc=False)
+    thumbs = Thumb(user_id=current_user.id).select(limit=50, oderby='timestamp', isasc=False)
+    collects = Collect(user_id=current_user.id).select(limit=50, oderby='timestamp', isasc=False)
+    historys = History(user_id=current_user.id).select(limit=50, oderby='timestamp', isasc=False)
     for comment in comments:
         comment.item = OPERAND[comment.operand](id=comment.operand_id).select(getone=True)
-
-    thumbs = Thumb(user_id=current_user.id).select(limit=50, oderby='timestamp', isasc=False)
     for thumb in thumbs:
         thumb.item = OPERAND[thumb.operand](id=thumb.operand_id).select(getone=True)
-
-    collects = Collect(user_id=current_user.id).select(limit=50, oderby='timestamp', isasc=False)
     for collect in collects:
         print(collect.user_id, collect.operand, collect.operand_id, collect.timestamp)
         collect.item = OPERAND[collect.operand](id=collect.operand_id).select(getone=True)
-
-    historys = History(user_id=current_user.id).select(limit=50, oderby='timestamp', isasc=False)
-
     return render_template('user/user.html', comments=comments, thumbs=thumbs, collects=collects, historys=historys)
 
 
@@ -83,18 +79,13 @@ def post_edit():
     if current_user.can(Permission.WRITE) and form.validate_on_submit():
         post.title = form.title.data
         post.body = form.body.data
-        print('TITLE', form.title.data)
-        print('BODY', form.body.data)
         post.type = form.TYPE[form.type.data]
         post.publish = post.publish or '发 布' in request.form.values()
         if type is 0:
             post.insert()
-            print('insert')
         elif type is 1:
             post.id = request.args.get('post_id', 0, type=int)
             post.update()
-            print('update')
-        print('this')
         return redirect('auth/user-post')
 
     if type is 1:
@@ -197,10 +188,8 @@ def password_reset(token):
 @auth.route('/edit_account/<oper>', methods=['GET', 'POST'])
 @login_required
 def edit_account(oper):
-    print(oper)
     isEmail = oper == 'eml'
     if isEmail:
-        print('IS EMAIL')
         form = ChangeEmailForm()
         if form.validate_on_submit():
             if current_user.verify_password(form.password.data):
@@ -213,7 +202,6 @@ def edit_account(oper):
             else:
                 flash('Email或密码错误.')
     else:
-        print('ISNT')
         form = ChangePasswordForm()
         if form.validate_on_submit():
             if current_user.verify_password(form.old_password.data):

@@ -3,7 +3,7 @@ from wtforms import StringField, PasswordField, BooleanField, SubmitField, Selec
 from wtforms.validators import DataRequired, Length, Email, Regexp, EqualTo
 from wtforms import ValidationError
 from flask_pagedown.fields import PageDownField
-from Model.model import Account
+from model.model import Account
 
 
 class LoginForm(FlaskForm):

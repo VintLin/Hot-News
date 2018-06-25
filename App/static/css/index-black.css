@@ -35,6 +35,10 @@ img.image {
 
 .news-image {
     width: 120px;
+}
+
+.image-item {
+    width: 120px;
     height: 80px;
     overflow: hidden;
     border-radius: 5px;

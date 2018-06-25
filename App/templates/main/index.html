@@ -23,19 +23,19 @@
                 <div class="carousel-inner">
                     <div class="item active">
                         <a href="{{ news[0].path }}">
-                            <img class="img" src="{{'static' + news[0].image}}" alt="First slide">
+                            <img class="img" src="static{{news[0].img_path + news[0].img_filename}}" alt="First slide">
                             <div class="carousel-caption"><h5>{{ news[0].title }}</h5></div>
                         </a>
                     </div>
                     <div class="item">
                         <a href="{{news[1].path}}">
-                            <img class="img" src="{{'static' + news[1].image}}" alt="Second slide">
+                            <img class="img" src="static{{news[1].img_path + news[1].img_filename}}" alt="Second slide">
                             <div class="carousel-caption"><h5>{{ news[1].title }}</h5></div>
                         </a>
                     </div>
                     <div class="item">
                         <a href="{{news[2].path}}">
-                            <img class="img" src="{{'static' + news[2].image}}" alt="Third slide">
+                            <img class="img" src="static{{news[2].img_path + news[2].img_filename}}" alt="Third slide">
                             <div class="carousel-caption"><h5>{{ news[2].title }}</h5></div>
                         </a>
                     </div>
@@ -55,7 +55,9 @@
                 {% for news in newsList %}
                     <a class="post-list-item row btn" href="{{news.path}}" style="text-align: inherit;">
                         <div class="col-md-2">
-                            <img class="news-image" src="static{{ news.image }}">
+                            <div class="image-item">
+                                <img class="news-image" src="static{{ news.img_path+'200X-'+news.img_filename }}">
+                            </div>
                         </div>
                         <div class="col-md-10">
                             <div>

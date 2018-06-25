@@ -1,0 +1,25 @@
+<div  style="height: 600px;">
+  <canvas id="news_table"></canvas>
+</div>
+<script>
+$(document).ready(function(){
+  $.get("/ajax/table?type=3", function(result){
+      var ctx = document.getElementById("news_table");
+      var table = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: result['labels'],
+                                datasets: [{
+                                    label: "每日网站新闻",
+                                    data: result['data'],
+                                    backgroundColor: 'rgba(85, 255, 209)',
+                                    borderColor: 'rgba(255,200,132)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {scales: {yAxes: [{ticks: {beginAtZero:true}}]}}
+                          });
+  });
+
+})
+</script>

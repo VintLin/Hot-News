@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}HotNews{% endblock %}
+
+{% block page_content %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+<div class="m-table">
+    {% include "table/one_day_news.html"%}
+</div>
+
+<div class="m-table">
+    {% include "table/one_day_word.html" %}
+</div>
+
+<div class="m-table">
+    {% include "table/one_word.html"%}
+</div>
+
+<style>
+    .m-table {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        background: #ffffff;
+    }
+</style>
+{% endblock %}

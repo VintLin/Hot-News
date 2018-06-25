@@ -1,0 +1,51 @@
+<div class="row">
+    <div class="col-md-4" style="margin-left:30px;">
+        <h3>输入关键词 查看其每日变化:</h3>
+    </div>
+    <div id="search" class="col-md-4 pull-right">
+        <div class="input-group input-group-lg">
+            <input class="form-control" id="word" name="search" placeholder="Search..." type="text" value="">
+            <span class="input-group-btn">
+              <div class="btn btn-search" id="enter">搜索</div>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div  style="heighqt: 600px;">
+  <canvas id="word_table"></canvas>
+</div>
+<style>
+    #enter {
+        color: #fff;
+    }
+    #search {
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+</style>
+<script>
+$(document).ready(function(){
+  word=''
+  $('#enter').click(function(){
+    word = $('#word').val();
+    $.get("/ajax/table?type=2&word="+word, function(result){
+      var word_ctx = document.getElementById("word_table");
+      var word_table = new Chart(word_ctx, {
+                            type: 'line',
+                            data: {
+                                labels: result['labels'],
+                                datasets: [{
+                                    label:  word + "词频分析",
+                                    data: result['data'],
+                                    backgroundColor: 'rgba(109, 234, 169)',
+                                    borderColor: 'rgba(255,200,132)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {scales: {yAxes: [{ticks: {beginAtZero:true}}]}}
+                          });
+    });
+  });
+})
+</script>

@@ -3,7 +3,7 @@ from wtforms import StringField, TextAreaField, BooleanField, SelectField, Submi
 from wtforms.validators import DataRequired, Length, Email, Regexp
 from wtforms import ValidationError
 
-from Model.model import Role, Account
+from model.model import Role, Account
 
 
 class SearchForm(FlaskForm):

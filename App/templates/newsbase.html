@@ -80,14 +80,14 @@
         </div>
         <div class="col-md-4">
                 <div class="list-group">
-                    <a class="list-group-item active" href="{{'/' + type}}">
+                    <a class="list-group-item active" href="/type/{{type}}">
                         <h4 class="list-group-item-heading">{{type}}</h4>
                     </a>
                     {% for item in typeList %}
                         <a class="list-group-item" href="{{item['path']}}">
-                            <spen class="badge">
+                            <span class="badge">
                                 {{item['time']}}
-                            </spen>
+                            </span>
                             <h7 class="list-group-item-heading">
                                 {{item['title']}}
                             </h7>
@@ -101,9 +101,9 @@
                     </a>
                     {% for item in timeList %}
                     <a class="list-group-item" href="{{item['path']}}">
-                        <spen class="badge">
+                        <span class="badge">
                             {{item['type']}}
-                        </spen>
+                        </span>
                         <h5 class="list-group-item-heading">
                             {{item['title']}}
                         </h5>

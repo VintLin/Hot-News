@@ -15,7 +15,7 @@
 	6.在HotNews下运行once_start.py立即执行爬虫程序，等待程序运行完成。
 	7.在HotNews\App\ 下运行Flask.py之后即可通过浏览器访问。
 	8.若需要每日定时执行爬虫程序:
-		windows 上执行命令:start /b python start.py
+		Windows  上执行命令:start /b python start.py
 		CentOS   上执行命令:nohup python start.py>output.txt 2>&1 &
 
 如果出现什么问题可以通过以下方式联系我：<br>

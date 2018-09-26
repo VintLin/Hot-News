@@ -9,7 +9,7 @@
 ### 如需本地运行，按以下步骤:
 	1.安装python3.6，确保同时安装了pip安装模块。
 	2.安装MySQL，配置数据库，创建一个名为news的数据库。
-	3.解压HotNews.zip项目压缩包。
+	3.通过git clone将项目存放到本地。
 	4.打开HotNews\vSQL\db.json 填写相应的MySQL配置数据。
 	5.在命令行下打开HotNews文件夹，执行pip install requirements.txt命令导入项目依赖的库。
 	6.在HotNews下运行once_start.py立即执行爬虫程序，等待程序运行完成。

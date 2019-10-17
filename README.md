@@ -19,5 +19,3 @@
 		CentOS   上执行命令:nohup python start.py>output.txt 2>&1 &
 
 如果出现什么问题可以通过以下方式联系我：<br>
-邮箱：voterlin@foxmail.com<br>
-QQ ：1179662449<br>
